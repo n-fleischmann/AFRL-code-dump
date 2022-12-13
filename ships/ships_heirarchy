@@ -1,0 +1,33 @@
+['root', 0]
+├── ['1', 13065] # Ships
+│   └── ['1', 1347] # Other Ship
+│   │   └── ['1', 1347]
+│   ├── ['2', 5858] # Military
+│   │   ├── ['2', 1171]  # Other Military
+│   │   ├── ['3', 837]   # Submarine
+│   │   ├── ['4', 242]   # Carrier
+│   │   ├── ['5', 335]   # Ticonderoga
+│   │   ├── ['6', 1209]  # Destroyer
+│   │   ├── ['7', 668]   # Frigate
+│   │   ├── ['8', 139]   # Patrol
+│   │   ├── ['9', 743]   # Lander
+│   │   ├── ['10', 120]  # Commander
+│   │   └── ['11', 394]  # Aux Ship
+│   └── ['3', 5860] # Civilian
+│       ├── ['12', 200]  # Other Merchant
+│       ├── ['13', 304]  # Container
+│       ├── ['14', 127]  # RoRo
+│       ├── ['15', 826]  # Cargo
+│       ├── ['16', 183]  # Barge
+│       ├── ['17', 243]  # Tugboat
+│       ├── ['18', 244]  # Ferry
+│       ├── ['19', 641]  # Yacht
+│       ├── ['20', 666]  # Sailboat
+│       ├── ['21', 417]  # Fishing Vessel
+│       ├── ['22', 161]  # Oil Tanker
+│       ├── ['23', 260]  # Hovercraft
+│       └── ['24', 1588] # Motorboat
+└── ['2', 898] # Dock - Excluded
+    └── ['4', 898]
+        └── ['25', 898]
+            └── [('50', 'Dock'), 898]

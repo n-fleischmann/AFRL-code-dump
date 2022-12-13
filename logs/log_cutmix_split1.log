@@ -1,0 +1,1621 @@
+Created dir @ /data/model_backups/models/planes/split1/2022-11-11-mixup
+Global seed set to 1000000
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Using PID: 5964
+**********************************************************
+Starting Experiment: 1 / 5 with mixup on split split1
+**********************************************************
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+Adjusting learning rate of group 0 to 5.0000e-03.
+
+  | Name      | Type   | Params
+-------------------------------------
+0 | model     | ResNet | 23.7 M
+1 | soft_xent | SoftCE | 0     
+-------------------------------------
+23.7 M    Trainable params
+0         Non-trainable params
+23.7 M    Total params
+94.680    Total estimated model params size (MB)
+	 L1 AUROC 0.0000 L1 FPR95TPR 100.0000
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 58.2997 L1 FPR95TPR 65.7809
+[ 2022-11-11 13:41:44.908540 ] Epoch [ 001 / 100 ] Training ID Accuracy: 15.078% Epoch Loss: 23.593479 Time 188.824s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 81.1661 L1 FPR95TPR 85.0901
+[ 2022-11-11 13:44:41.518424 ] Epoch [ 002 / 100 ] Training ID Accuracy: 58.564% Epoch Loss: 16.955008 Time 176.610s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 86.5276 L1 FPR95TPR 83.9386
+[ 2022-11-11 13:47:38.783001 ] Epoch [ 003 / 100 ] Training ID Accuracy: 76.244% Epoch Loss: 14.996996 Time 177.264s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 81.4542 L1 FPR95TPR 85.6510
+[ 2022-11-11 13:50:32.355331 ] Epoch [ 004 / 100 ] Training ID Accuracy: 82.321% Epoch Loss: 14.219480 Time 173.572s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 89.0593 L1 FPR95TPR 86.1529
+[ 2022-11-11 13:53:27.629811 ] Epoch [ 005 / 100 ] Training ID Accuracy: 87.201% Epoch Loss: 13.239725 Time 175.274s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 82.5893 L1 FPR95TPR 84.5291
+[ 2022-11-11 13:56:20.982895 ] Epoch [ 006 / 100 ] Training ID Accuracy: 91.113% Epoch Loss: 13.056185 Time 173.353s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 91.3886 L1 FPR95TPR 87.1568
+[ 2022-11-11 13:59:15.172291 ] Epoch [ 007 / 100 ] Training ID Accuracy: 92.309% Epoch Loss: 12.356711 Time 174.189s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 89.7641 L1 FPR95TPR 79.7521
+[ 2022-11-11 14:02:08.357055 ] Epoch [ 008 / 100 ] Training ID Accuracy: 94.151% Epoch Loss: 12.024775 Time 173.185s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 86.4006 L1 FPR95TPR 97.7561
+[ 2022-11-11 14:05:01.568401 ] Epoch [ 009 / 100 ] Training ID Accuracy: 94.645% Epoch Loss: 12.146715 Time 173.211s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 91.1400 L1 FPR95TPR 95.8961
+[ 2022-11-11 14:07:54.896873 ] Epoch [ 010 / 100 ] Training ID Accuracy: 96.107% Epoch Loss: 12.036987 Time 173.328s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 90.8794 L1 FPR95TPR 95.6008
+[ 2022-11-11 14:10:46.678078 ] Epoch [ 011 / 100 ] Training ID Accuracy: 96.848% Epoch Loss: 11.735309 Time 171.781s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 90.5874 L1 FPR95TPR 88.7216
+[ 2022-11-11 14:13:40.904582 ] Epoch [ 012 / 100 ] Training ID Accuracy: 97.360% Epoch Loss: 11.633489 Time 174.226s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 93.0840 L1 FPR95TPR 97.6085
+[ 2022-11-11 14:16:34.126723 ] Epoch [ 013 / 100 ] Training ID Accuracy: 98.424% Epoch Loss: 11.474421 Time 173.222s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 93.2601 L1 FPR95TPR 85.9167
+[ 2022-11-11 14:19:27.931732 ] Epoch [ 014 / 100 ] Training ID Accuracy: 98.538% Epoch Loss: 11.237214 Time 173.805s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 93.2446 L1 FPR95TPR 94.3313
+[ 2022-11-11 14:22:23.791596 ] Epoch [ 015 / 100 ] Training ID Accuracy: 98.975% Epoch Loss: 11.376162 Time 175.860s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 91.3393 L1 FPR95TPR 95.5418
+[ 2022-11-11 14:25:18.869790 ] Epoch [ 016 / 100 ] Training ID Accuracy: 98.766% Epoch Loss: 11.228348 Time 175.078s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 94.9010 L1 FPR95TPR 91.4083
+[ 2022-11-11 14:28:11.529045 ] Epoch [ 017 / 100 ] Training ID Accuracy: 99.411% Epoch Loss: 10.974748 Time 172.659s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 94.4841 L1 FPR95TPR 98.3466
+[ 2022-11-11 14:31:09.185690 ] Epoch [ 018 / 100 ] Training ID Accuracy: 99.240% Epoch Loss: 10.997877 Time 177.657s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 89.8321 L1 FPR95TPR 97.9339
+[ 2022-11-11 14:34:02.492261 ] Epoch [ 019 / 100 ] Training ID Accuracy: 99.278% Epoch Loss: 11.038253 Time 173.307s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 87.4421 L1 FPR95TPR 58.1340
+[ 2022-11-11 14:36:58.577198 ] Epoch [ 020 / 100 ] Training ID Accuracy: 99.677% Epoch Loss: 10.691705 Time 176.085s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 92.6910 L1 FPR95TPR 96.3695
+[ 2022-11-11 14:39:54.539638 ] Epoch [ 021 / 100 ] Training ID Accuracy: 99.297% Epoch Loss: 10.891647 Time 175.962s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 89.7388 L1 FPR95TPR 78.0632
+[ 2022-11-11 14:42:49.078996 ] Epoch [ 022 / 100 ] Training ID Accuracy: 99.449% Epoch Loss: 10.801269 Time 174.539s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 89.9236 L1 FPR95TPR 78.0041
+[ 2022-11-11 14:45:41.749197 ] Epoch [ 023 / 100 ] Training ID Accuracy: 99.772% Epoch Loss: 10.576460 Time 172.670s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 92.9784 L1 FPR95TPR 79.9528
+[ 2022-11-11 14:48:34.758280 ] Epoch [ 024 / 100 ] Training ID Accuracy: 99.677% Epoch Loss: 10.853705 Time 173.009s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 92.8215 L1 FPR95TPR 97.7266
+[ 2022-11-11 14:51:27.373968 ] Epoch [ 025 / 100 ] Training ID Accuracy: 99.696% Epoch Loss: 10.390993 Time 172.616s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 93.7754 L1 FPR95TPR 75.5536
+[ 2022-11-11 14:54:19.025032 ] Epoch [ 026 / 100 ] Training ID Accuracy: 99.829% Epoch Loss: 10.678786 Time 171.651s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 95.8946 L1 FPR95TPR 70.4458
+[ 2022-11-11 14:57:11.579307 ] Epoch [ 027 / 100 ] Training ID Accuracy: 99.601% Epoch Loss: 10.723181 Time 172.554s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 93.2913 L1 FPR95TPR 90.8178
+[ 2022-11-11 15:00:04.860968 ] Epoch [ 028 / 100 ] Training ID Accuracy: 99.601% Epoch Loss: 10.569112 Time 173.282s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 93.4436 L1 FPR95TPR 92.0283
+[ 2022-11-11 15:02:58.504401 ] Epoch [ 029 / 100 ] Training ID Accuracy: 99.772% Epoch Loss: 10.313509 Time 173.643s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 89.5956 L1 FPR95TPR 94.5084
+[ 2022-11-11 15:05:51.435229 ] Epoch [ 030 / 100 ] Training ID Accuracy: 99.886% Epoch Loss: 10.522752 Time 172.931s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 93.8908 L1 FPR95TPR 93.8589
+[ 2022-11-11 15:08:44.272430 ] Epoch [ 031 / 100 ] Training ID Accuracy: 99.962% Epoch Loss: 10.141659 Time 172.837s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 90.4594 L1 FPR95TPR 93.2093
+[ 2022-11-11 15:11:36.543923 ] Epoch [ 032 / 100 ] Training ID Accuracy: 99.962% Epoch Loss: 10.276568 Time 172.271s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 93.2492 L1 FPR95TPR 88.9283
+[ 2022-11-11 15:14:28.490799 ] Epoch [ 033 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.417684 Time 171.947s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.2543 L1 FPR95TPR 85.3853
+[ 2022-11-11 15:17:20.700933 ] Epoch [ 034 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.281754 Time 172.210s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.1686 L1 FPR95TPR 90.2864
+[ 2022-11-11 15:20:13.589228 ] Epoch [ 035 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.567583 Time 172.888s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 93.2295 L1 FPR95TPR 90.0207
+[ 2022-11-11 15:23:07.434429 ] Epoch [ 036 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.324906 Time 173.845s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.0546 L1 FPR95TPR 86.5998
+[ 2022-11-11 15:26:01.780832 ] Epoch [ 037 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.221587 Time 174.346s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.5918 L1 FPR95TPR 82.5509
+[ 2022-11-11 15:28:55.026796 ] Epoch [ 038 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.314433 Time 173.246s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.1363 L1 FPR95TPR 92.7665
+[ 2022-11-11 15:31:48.230015 ] Epoch [ 039 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.297370 Time 173.203s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 93.5741 L1 FPR95TPR 90.6112
+[ 2022-11-11 15:34:41.613987 ] Epoch [ 040 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.267656 Time 173.384s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.8684 L1 FPR95TPR 94.1836
+[ 2022-11-11 15:37:33.091550 ] Epoch [ 041 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.129796 Time 171.477s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.6262 L1 FPR95TPR 81.4585
+[ 2022-11-11 15:40:26.683142 ] Epoch [ 042 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.253338 Time 173.592s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.0469 L1 FPR95TPR 91.0245
+[ 2022-11-11 15:43:21.489253 ] Epoch [ 043 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.471581 Time 174.806s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.7345 L1 FPR95TPR 83.7024
+[ 2022-11-11 15:46:15.525394 ] Epoch [ 044 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.039784 Time 174.036s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.2254 L1 FPR95TPR 88.7806
+[ 2022-11-11 15:49:07.295018 ] Epoch [ 045 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.393927 Time 171.770s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 93.8353 L1 FPR95TPR 85.9463
+[ 2022-11-11 15:52:00.099120 ] Epoch [ 046 / 100 ] Training ID Accuracy: 99.943% Epoch Loss: 10.501674 Time 172.804s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.0570 L1 FPR95TPR 90.4340
+[ 2022-11-11 15:54:52.047819 ] Epoch [ 047 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.339895 Time 171.949s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.1082 L1 FPR95TPR 81.8719
+[ 2022-11-11 15:57:46.626034 ] Epoch [ 048 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.477014 Time 174.578s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.6891 L1 FPR95TPR 87.8358
+[ 2022-11-11 16:00:40.998218 ] Epoch [ 049 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.192261 Time 174.372s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.1559 L1 FPR95TPR 91.3788
+[ 2022-11-11 16:03:36.043657 ] Epoch [ 050 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.155206 Time 175.045s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 92.9256 L1 FPR95TPR 91.7355
+[ 2022-11-11 16:06:29.811391 ] Epoch [ 051 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.361198 Time 173.768s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.5686 L1 FPR95TPR 85.0901
+[ 2022-11-11 16:09:24.956506 ] Epoch [ 052 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.296736 Time 175.145s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.7795 L1 FPR95TPR 85.4443
+[ 2022-11-11 16:12:19.675072 ] Epoch [ 053 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.289558 Time 174.718s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.6028 L1 FPR95TPR 86.9796
+[ 2022-11-11 16:15:15.990643 ] Epoch [ 054 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.142545 Time 176.315s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.8445 L1 FPR95TPR 85.6215
+[ 2022-11-11 16:18:10.101257 ] Epoch [ 055 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.339777 Time 174.111s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 96.8065 L1 FPR95TPR 78.5061
+[ 2022-11-11 16:21:05.453407 ] Epoch [ 056 / 100 ] Training ID Accuracy: 99.962% Epoch Loss: 10.222394 Time 175.352s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.3188 L1 FPR95TPR 78.1222
+[ 2022-11-11 16:24:01.772661 ] Epoch [ 057 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.465668 Time 176.319s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 96.2873 L1 FPR95TPR 76.7051
+[ 2022-11-11 16:26:56.801327 ] Epoch [ 058 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.414744 Time 175.029s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 96.3771 L1 FPR95TPR 87.2454
+[ 2022-11-11 16:29:50.666017 ] Epoch [ 059 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.348807 Time 173.865s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.7453 L1 FPR95TPR 82.9052
+[ 2022-11-11 16:32:44.800777 ] Epoch [ 060 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.290440 Time 174.135s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 95.9155 L1 FPR95TPR 84.9129
+[ 2022-11-11 16:35:42.061394 ] Epoch [ 061 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.105770 Time 177.261s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 95.6759 L1 FPR95TPR 87.4520
+[ 2022-11-11 16:38:36.474007 ] Epoch [ 062 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.069934 Time 174.413s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 93.6990 L1 FPR95TPR 72.5125
+[ 2022-11-11 16:41:31.396658 ] Epoch [ 063 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.117480 Time 174.923s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 95.7000 L1 FPR95TPR 87.9539
+[ 2022-11-11 16:44:25.503509 ] Epoch [ 064 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.284995 Time 174.107s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.4361 L1 FPR95TPR 88.0720
+[ 2022-11-11 16:47:19.253641 ] Epoch [ 065 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.315603 Time 173.750s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 93.4411 L1 FPR95TPR 83.2104
+[ 2022-11-11 16:50:16.331829 ] Epoch [ 066 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.043566 Time 177.078s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.7536 L1 FPR95TPR 77.2137
+[ 2022-11-11 16:53:10.826664 ] Epoch [ 067 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.230726 Time 174.495s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.0794 L1 FPR95TPR 81.5176
+[ 2022-11-11 16:56:05.458199 ] Epoch [ 068 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.265244 Time 174.631s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 96.5845 L1 FPR95TPR 87.6587
+[ 2022-11-11 16:59:00.181557 ] Epoch [ 069 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.098566 Time 174.723s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.2859 L1 FPR95TPR 84.2043
+[ 2022-11-11 17:01:55.438131 ] Epoch [ 070 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.136262 Time 175.257s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 95.4363 L1 FPR95TPR 80.4547
+[ 2022-11-11 17:04:50.705861 ] Epoch [ 071 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.197790 Time 175.268s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.6125 L1 FPR95TPR 81.2814
+[ 2022-11-11 17:07:47.849018 ] Epoch [ 072 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.150217 Time 177.143s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 93.1181 L1 FPR95TPR 81.7001
+[ 2022-11-11 17:10:46.643813 ] Epoch [ 073 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.109544 Time 178.795s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 91.6367 L1 FPR95TPR 84.6177
+[ 2022-11-11 17:13:44.157580 ] Epoch [ 074 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.074916 Time 177.514s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.3679 L1 FPR95TPR 75.2879
+[ 2022-11-11 17:16:37.783353 ] Epoch [ 075 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.281394 Time 173.626s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.7115 L1 FPR95TPR 75.8193
+[ 2022-11-11 17:19:34.276923 ] Epoch [ 076 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.273557 Time 176.494s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 96.0688 L1 FPR95TPR 72.3944
+[ 2022-11-11 17:22:29.958626 ] Epoch [ 077 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.248539 Time 175.682s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 96.2289 L1 FPR95TPR 83.3481
+[ 2022-11-11 17:25:25.300173 ] Epoch [ 078 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.408058 Time 175.341s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.5466 L1 FPR95TPR 89.3121
+[ 2022-11-11 17:28:22.204255 ] Epoch [ 079 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.175833 Time 176.904s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 93.9368 L1 FPR95TPR 87.9244
+[ 2022-11-11 17:31:17.140371 ] Epoch [ 080 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.327706 Time 174.936s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 96.1531 L1 FPR95TPR 84.7948
+[ 2022-11-11 17:34:14.836367 ] Epoch [ 081 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.075479 Time 177.696s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 93.7258 L1 FPR95TPR 86.1234
+[ 2022-11-11 17:37:10.516551 ] Epoch [ 082 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.328292 Time 175.680s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 95.7796 L1 FPR95TPR 86.1234
+[ 2022-11-11 17:40:04.948196 ] Epoch [ 083 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.206973 Time 174.432s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 95.4039 L1 FPR95TPR 80.8385
+[ 2022-11-11 17:43:00.489058 ] Epoch [ 084 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.040347 Time 175.541s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 95.3458 L1 FPR95TPR 64.2161
+[ 2022-11-11 17:45:53.522514 ] Epoch [ 085 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.068814 Time 173.033s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.9449 L1 FPR95TPR 88.6954
+[ 2022-11-11 17:48:47.698969 ] Epoch [ 086 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.119245 Time 174.176s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.8130 L1 FPR95TPR 86.2751
+[ 2022-11-11 17:51:43.234846 ] Epoch [ 087 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.144587 Time 175.536s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.6695 L1 FPR95TPR 85.5920
+[ 2022-11-11 17:54:38.405926 ] Epoch [ 088 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.131124 Time 175.171s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 95.2997 L1 FPR95TPR 84.3224
+[ 2022-11-11 17:57:33.508660 ] Epoch [ 089 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.025288 Time 175.103s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 95.1534 L1 FPR95TPR 88.3378
+[ 2022-11-11 18:00:28.055561 ] Epoch [ 090 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 9.923115 Time 174.547s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 95.5136 L1 FPR95TPR 78.6242
+[ 2022-11-11 18:03:21.095991 ] Epoch [ 091 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.188905 Time 173.040s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 94.6771 L1 FPR95TPR 83.4662
+[ 2022-11-11 18:06:14.666477 ] Epoch [ 092 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.246917 Time 173.570s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 94.2649 L1 FPR95TPR 79.5394
+[ 2022-11-11 18:09:06.931517 ] Epoch [ 093 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.132393 Time 172.265s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 95.0372 L1 FPR95TPR 84.6177
+[ 2022-11-11 18:12:02.588725 ] Epoch [ 094 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.382578 Time 175.657s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 94.1902 L1 FPR95TPR 81.9014
+[ 2022-11-11 18:14:56.134008 ] Epoch [ 095 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.124244 Time 173.545s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 91.3070 L1 FPR95TPR 84.7358
+[ 2022-11-11 18:17:50.131552 ] Epoch [ 096 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.273852 Time 173.998s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 95.9580 L1 FPR95TPR 87.3967
+[ 2022-11-11 18:20:44.698571 ] Epoch [ 097 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.083355 Time 174.567s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 95.7598 L1 FPR95TPR 76.6755
+[ 2022-11-11 18:23:40.909901 ] Epoch [ 098 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.013339 Time 176.211s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 96.1631 L1 FPR95TPR 86.0053
+[ 2022-11-11 18:26:35.091610 ] Epoch [ 099 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.147394 Time 174.182s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 93.4733 L1 FPR95TPR 84.4996
+[ 2022-11-11 18:29:32.273380 ] Epoch [ 100 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.036001 Time 177.182s
+`Trainer.fit` stopped: `max_epochs=100` reached.
+Total training time: 4:50:53.928588
+Global seed set to 1000001
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Using PID: 5964
+**********************************************************
+Starting Experiment: 2 / 5 with mixup on split split1
+**********************************************************
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+Adjusting learning rate of group 0 to 5.0000e-03.
+
+  | Name      | Type   | Params
+-------------------------------------
+0 | model     | ResNet | 23.7 M
+1 | soft_xent | SoftCE | 0     
+-------------------------------------
+23.7 M    Trainable params
+0         Non-trainable params
+23.7 M    Total params
+94.680    Total estimated model params size (MB)
+	 L1 AUROC 0.0000 L1 FPR95TPR 100.0000
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 70.2468 L1 FPR95TPR 58.0750
+[ 2022-11-11 18:37:17.392729 ] Epoch [ 001 / 100 ] Training ID Accuracy: 17.869% Epoch Loss: 23.212944 Time 186.841s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 82.2425 L1 FPR95TPR 82.9643
+[ 2022-11-11 18:40:13.716092 ] Epoch [ 002 / 100 ] Training ID Accuracy: 61.812% Epoch Loss: 16.771608 Time 176.323s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 89.4034 L1 FPR95TPR 92.5598
+[ 2022-11-11 18:43:09.265241 ] Epoch [ 003 / 100 ] Training ID Accuracy: 75.997% Epoch Loss: 14.598450 Time 175.549s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 92.5500 L1 FPR95TPR 88.8692
+[ 2022-11-11 18:46:05.623556 ] Epoch [ 004 / 100 ] Training ID Accuracy: 84.220% Epoch Loss: 13.896628 Time 176.358s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 88.5606 L1 FPR95TPR 88.1606
+[ 2022-11-11 18:49:02.424166 ] Epoch [ 005 / 100 ] Training ID Accuracy: 87.619% Epoch Loss: 13.245759 Time 176.801s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 90.4946 L1 FPR95TPR 98.6714
+[ 2022-11-11 18:51:59.465982 ] Epoch [ 006 / 100 ] Training ID Accuracy: 89.935% Epoch Loss: 12.898483 Time 177.042s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 86.4045 L1 FPR95TPR 89.8435
+[ 2022-11-11 18:54:55.104313 ] Epoch [ 007 / 100 ] Training ID Accuracy: 92.860% Epoch Loss: 12.448553 Time 175.638s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 90.2563 L1 FPR95TPR 79.6575
+[ 2022-11-11 18:57:50.411328 ] Epoch [ 008 / 100 ] Training ID Accuracy: 94.360% Epoch Loss: 12.199568 Time 175.307s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 92.2416 L1 FPR95TPR 66.7552
+[ 2022-11-11 19:00:45.657355 ] Epoch [ 009 / 100 ] Training ID Accuracy: 95.537% Epoch Loss: 11.870369 Time 175.246s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 90.2776 L1 FPR95TPR 65.5152
+[ 2022-11-11 19:03:39.436134 ] Epoch [ 010 / 100 ] Training ID Accuracy: 97.000% Epoch Loss: 11.679322 Time 173.779s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 91.4181 L1 FPR95TPR 93.0027
+[ 2022-11-11 19:06:33.764365 ] Epoch [ 011 / 100 ] Training ID Accuracy: 97.360% Epoch Loss: 11.508021 Time 174.328s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 91.9277 L1 FPR95TPR 98.9371
+[ 2022-11-11 19:09:28.176745 ] Epoch [ 012 / 100 ] Training ID Accuracy: 97.892% Epoch Loss: 11.365543 Time 174.412s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 92.1590 L1 FPR95TPR 82.6986
+[ 2022-11-11 19:12:22.441550 ] Epoch [ 013 / 100 ] Training ID Accuracy: 98.101% Epoch Loss: 11.181364 Time 174.265s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 90.7073 L1 FPR95TPR 91.4083
+[ 2022-11-11 19:15:16.654281 ] Epoch [ 014 / 100 ] Training ID Accuracy: 98.196% Epoch Loss: 11.100019 Time 174.213s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 92.2011 L1 FPR95TPR 92.9141
+[ 2022-11-11 19:18:09.599340 ] Epoch [ 015 / 100 ] Training ID Accuracy: 99.164% Epoch Loss: 10.964431 Time 172.945s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 91.5036 L1 FPR95TPR 95.5418
+[ 2022-11-11 19:21:03.609598 ] Epoch [ 016 / 100 ] Training ID Accuracy: 99.259% Epoch Loss: 11.167551 Time 174.010s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 92.1631 L1 FPR95TPR 79.9232
+[ 2022-11-11 19:23:58.625028 ] Epoch [ 017 / 100 ] Training ID Accuracy: 99.164% Epoch Loss: 11.066917 Time 175.015s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 92.0753 L1 FPR95TPR 97.6085
+[ 2022-11-11 19:26:51.693249 ] Epoch [ 018 / 100 ] Training ID Accuracy: 99.183% Epoch Loss: 11.110399 Time 173.068s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 94.3057 L1 FPR95TPR 90.2273
+[ 2022-11-11 19:29:43.683481 ] Epoch [ 019 / 100 ] Training ID Accuracy: 99.601% Epoch Loss: 10.902949 Time 171.990s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 87.8565 L1 FPR95TPR 95.3056
+[ 2022-11-11 19:32:36.108288 ] Epoch [ 020 / 100 ] Training ID Accuracy: 99.658% Epoch Loss: 11.084881 Time 172.425s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 91.7143 L1 FPR95TPR 85.5034
+[ 2022-11-11 19:35:30.738794 ] Epoch [ 021 / 100 ] Training ID Accuracy: 99.620% Epoch Loss: 11.044403 Time 174.630s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 91.4350 L1 FPR95TPR 87.9835
+[ 2022-11-11 19:38:24.965507 ] Epoch [ 022 / 100 ] Training ID Accuracy: 99.354% Epoch Loss: 10.990072 Time 174.227s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 90.1657 L1 FPR95TPR 97.8447
+[ 2022-11-11 19:41:18.486461 ] Epoch [ 023 / 100 ] Training ID Accuracy: 99.582% Epoch Loss: 10.806077 Time 173.521s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 94.5907 L1 FPR95TPR 91.8241
+[ 2022-11-11 19:44:11.529907 ] Epoch [ 024 / 100 ] Training ID Accuracy: 99.772% Epoch Loss: 10.744130 Time 173.043s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 93.8603 L1 FPR95TPR 92.8846
+[ 2022-11-11 19:47:04.238246 ] Epoch [ 025 / 100 ] Training ID Accuracy: 99.677% Epoch Loss: 10.597498 Time 172.708s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 95.5374 L1 FPR95TPR 93.3865
+[ 2022-11-11 19:49:57.406460 ] Epoch [ 026 / 100 ] Training ID Accuracy: 99.810% Epoch Loss: 10.933890 Time 173.168s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 91.8537 L1 FPR95TPR 84.9174
+[ 2022-11-11 19:52:51.238940 ] Epoch [ 027 / 100 ] Training ID Accuracy: 99.791% Epoch Loss: 10.619358 Time 173.832s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 92.5860 L1 FPR95TPR 75.9374
+[ 2022-11-11 19:55:45.166164 ] Epoch [ 028 / 100 ] Training ID Accuracy: 99.829% Epoch Loss: 10.588771 Time 173.927s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 94.5511 L1 FPR95TPR 93.7998
+[ 2022-11-11 19:58:38.909125 ] Epoch [ 029 / 100 ] Training ID Accuracy: 99.905% Epoch Loss: 10.544124 Time 173.743s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 93.7463 L1 FPR95TPR 89.2235
+[ 2022-11-11 20:01:32.196620 ] Epoch [ 030 / 100 ] Training ID Accuracy: 99.848% Epoch Loss: 10.705453 Time 173.287s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 96.9612 L1 FPR95TPR 92.9436
+[ 2022-11-11 20:04:26.229943 ] Epoch [ 031 / 100 ] Training ID Accuracy: 99.943% Epoch Loss: 10.238582 Time 174.033s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 93.9038 L1 FPR95TPR 92.7665
+[ 2022-11-11 20:07:18.621085 ] Epoch [ 032 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.326156 Time 172.391s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.8558 L1 FPR95TPR 91.3788
+[ 2022-11-11 20:10:10.972463 ] Epoch [ 033 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.303262 Time 172.351s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.4064 L1 FPR95TPR 91.6740
+[ 2022-11-11 20:13:05.201963 ] Epoch [ 034 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.347223 Time 174.229s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.2009 L1 FPR95TPR 87.5996
+[ 2022-11-11 20:15:59.505425 ] Epoch [ 035 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.328306 Time 174.303s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.1009 L1 FPR95TPR 90.1092
+[ 2022-11-11 20:18:53.439420 ] Epoch [ 036 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.263961 Time 173.934s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 96.2048 L1 FPR95TPR 92.8846
+[ 2022-11-11 20:21:47.293203 ] Epoch [ 037 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.415606 Time 173.854s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 93.8247 L1 FPR95TPR 89.3416
+[ 2022-11-11 20:24:40.236883 ] Epoch [ 038 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.364700 Time 172.944s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 93.2509 L1 FPR95TPR 94.0378
+[ 2022-11-11 20:27:34.202447 ] Epoch [ 039 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.044693 Time 173.966s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 93.9945 L1 FPR95TPR 93.4750
+[ 2022-11-11 20:30:28.696059 ] Epoch [ 040 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.036396 Time 174.494s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 93.2238 L1 FPR95TPR 85.3262
+[ 2022-11-11 20:33:21.752945 ] Epoch [ 041 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.365166 Time 173.057s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 96.3359 L1 FPR95TPR 91.9693
+[ 2022-11-11 20:36:15.263477 ] Epoch [ 042 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.280740 Time 173.510s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 96.5942 L1 FPR95TPR 85.8282
+[ 2022-11-11 20:39:08.350657 ] Epoch [ 043 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.051179 Time 173.087s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.2338 L1 FPR95TPR 89.1349
+[ 2022-11-11 20:42:02.224870 ] Epoch [ 044 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.210719 Time 173.874s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 91.6696 L1 FPR95TPR 85.6805
+[ 2022-11-11 20:44:55.143446 ] Epoch [ 045 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.268291 Time 172.918s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 93.7962 L1 FPR95TPR 82.8757
+[ 2022-11-11 20:47:50.036758 ] Epoch [ 046 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.365199 Time 174.893s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.2658 L1 FPR95TPR 88.0460
+[ 2022-11-11 20:50:43.991272 ] Epoch [ 047 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.157749 Time 173.954s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 93.9704 L1 FPR95TPR 87.6587
+[ 2022-11-11 20:53:36.543847 ] Epoch [ 048 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.253795 Time 172.553s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 96.3348 L1 FPR95TPR 93.1503
+[ 2022-11-11 20:56:29.482030 ] Epoch [ 049 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.489669 Time 172.938s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.8161 L1 FPR95TPR 85.0605
+[ 2022-11-11 20:59:23.789183 ] Epoch [ 050 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.212484 Time 174.307s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 91.8073 L1 FPR95TPR 85.0605
+[ 2022-11-11 21:02:16.922365 ] Epoch [ 051 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.252815 Time 173.133s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 92.1351 L1 FPR95TPR 76.4984
+[ 2022-11-11 21:05:09.839021 ] Epoch [ 052 / 100 ] Training ID Accuracy: 99.962% Epoch Loss: 10.378894 Time 172.917s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 91.3002 L1 FPR95TPR 84.2634
+[ 2022-11-11 21:08:03.989199 ] Epoch [ 053 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.166992 Time 174.150s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.0829 L1 FPR95TPR 80.5137
+[ 2022-11-11 21:10:58.865013 ] Epoch [ 054 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.302107 Time 174.876s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.0852 L1 FPR95TPR 74.7048
+[ 2022-11-11 21:13:51.339608 ] Epoch [ 055 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.391204 Time 172.475s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.7865 L1 FPR95TPR 87.9835
+[ 2022-11-11 21:16:44.879551 ] Epoch [ 056 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.487957 Time 173.540s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.6250 L1 FPR95TPR 91.7331
+[ 2022-11-11 21:19:38.534474 ] Epoch [ 057 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.431541 Time 173.655s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.5127 L1 FPR95TPR 91.2312
+[ 2022-11-11 21:22:33.380636 ] Epoch [ 058 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.275070 Time 174.846s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 96.1788 L1 FPR95TPR 67.9362
+[ 2022-11-11 21:25:27.305819 ] Epoch [ 059 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.277288 Time 173.925s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.5499 L1 FPR95TPR 83.5548
+[ 2022-11-11 21:28:21.323529 ] Epoch [ 060 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.262892 Time 174.018s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 96.4017 L1 FPR95TPR 80.4252
+[ 2022-11-11 21:31:15.720863 ] Epoch [ 061 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.074322 Time 174.397s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 93.8657 L1 FPR95TPR 86.2710
+[ 2022-11-11 21:34:08.675244 ] Epoch [ 062 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.502698 Time 172.954s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 93.4678 L1 FPR95TPR 84.8243
+[ 2022-11-11 21:37:02.895205 ] Epoch [ 063 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.155285 Time 174.220s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 95.8574 L1 FPR95TPR 62.7694
+[ 2022-11-11 21:39:56.145834 ] Epoch [ 064 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.074145 Time 173.251s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 92.6027 L1 FPR95TPR 81.2814
+[ 2022-11-11 21:42:50.316174 ] Epoch [ 065 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.330923 Time 174.170s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 95.1987 L1 FPR95TPR 88.3968
+[ 2022-11-11 21:45:44.046317 ] Epoch [ 066 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.240908 Time 173.730s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.1199 L1 FPR95TPR 81.1928
+[ 2022-11-11 21:48:37.345628 ] Epoch [ 067 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.184750 Time 173.299s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 95.3645 L1 FPR95TPR 83.7910
+[ 2022-11-11 21:51:29.323299 ] Epoch [ 068 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.150091 Time 171.978s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.1846 L1 FPR95TPR 82.8462
+[ 2022-11-11 21:54:24.326291 ] Epoch [ 069 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.103315 Time 175.003s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 93.4420 L1 FPR95TPR 84.4405
+[ 2022-11-11 21:57:17.347184 ] Epoch [ 070 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.023371 Time 173.021s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 91.7528 L1 FPR95TPR 87.4557
+[ 2022-11-11 22:00:11.730458 ] Epoch [ 071 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.413023 Time 174.383s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.7591 L1 FPR95TPR 82.6690
+[ 2022-11-11 22:03:06.408235 ] Epoch [ 072 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.108129 Time 174.678s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 96.0427 L1 FPR95TPR 79.5099
+[ 2022-11-11 22:05:59.337050 ] Epoch [ 073 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.256563 Time 172.929s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 92.2578 L1 FPR95TPR 81.0452
+[ 2022-11-11 22:08:53.613620 ] Epoch [ 074 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 9.831415 Time 174.277s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.9732 L1 FPR95TPR 87.1273
+[ 2022-11-11 22:11:47.425913 ] Epoch [ 075 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.181668 Time 173.812s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.3031 L1 FPR95TPR 84.0567
+[ 2022-11-11 22:14:41.696881 ] Epoch [ 076 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.060650 Time 174.271s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 91.6270 L1 FPR95TPR 89.4006
+[ 2022-11-11 22:17:33.843162 ] Epoch [ 077 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.093373 Time 172.146s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 93.6245 L1 FPR95TPR 79.3388
+[ 2022-11-11 22:20:27.264991 ] Epoch [ 078 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.156240 Time 173.422s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 95.9460 L1 FPR95TPR 86.4482
+[ 2022-11-11 22:23:22.464175 ] Epoch [ 079 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.033568 Time 175.199s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.8479 L1 FPR95TPR 82.5214
+[ 2022-11-11 22:26:16.381536 ] Epoch [ 080 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.321551 Time 173.917s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 93.5353 L1 FPR95TPR 86.9796
+[ 2022-11-11 22:29:12.216903 ] Epoch [ 081 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.245204 Time 175.835s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 95.5027 L1 FPR95TPR 87.5111
+[ 2022-11-11 22:32:05.161407 ] Epoch [ 082 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.149378 Time 172.944s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.7771 L1 FPR95TPR 84.9720
+[ 2022-11-11 22:34:58.103274 ] Epoch [ 083 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.228801 Time 172.942s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 91.2594 L1 FPR95TPR 86.2456
+[ 2022-11-11 22:37:52.090836 ] Epoch [ 084 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.025434 Time 173.987s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 91.9497 L1 FPR95TPR 81.0212
+[ 2022-11-11 22:40:44.730210 ] Epoch [ 085 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.319398 Time 172.639s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 93.6668 L1 FPR95TPR 87.4225
+[ 2022-11-11 22:43:39.283503 ] Epoch [ 086 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.295674 Time 174.553s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 95.4411 L1 FPR95TPR 87.8358
+[ 2022-11-11 22:46:32.168500 ] Epoch [ 087 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.112421 Time 172.885s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 96.3159 L1 FPR95TPR 76.1146
+[ 2022-11-11 22:49:25.635236 ] Epoch [ 088 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.311481 Time 173.467s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 93.1223 L1 FPR95TPR 87.9835
+[ 2022-11-11 22:52:19.855958 ] Epoch [ 089 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.000434 Time 174.221s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 95.6881 L1 FPR95TPR 89.9026
+[ 2022-11-11 22:55:13.374232 ] Epoch [ 090 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.368548 Time 173.518s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 94.1872 L1 FPR95TPR 78.9784
+[ 2022-11-11 22:58:07.560014 ] Epoch [ 091 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.048551 Time 174.186s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 94.3351 L1 FPR95TPR 84.6222
+[ 2022-11-11 23:01:00.993949 ] Epoch [ 092 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.178639 Time 173.434s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 94.9710 L1 FPR95TPR 85.7986
+[ 2022-11-11 23:03:55.114537 ] Epoch [ 093 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.346014 Time 174.121s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 96.1543 L1 FPR95TPR 84.4405
+[ 2022-11-11 23:06:50.777829 ] Epoch [ 094 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.137879 Time 175.663s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 93.3132 L1 FPR95TPR 76.2031
+[ 2022-11-11 23:09:45.171025 ] Epoch [ 095 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.015372 Time 174.393s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 92.4323 L1 FPR95TPR 87.5996
+[ 2022-11-11 23:12:40.667767 ] Epoch [ 096 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.315686 Time 175.497s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 95.4459 L1 FPR95TPR 88.3082
+[ 2022-11-11 23:15:35.391620 ] Epoch [ 097 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.097826 Time 174.724s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 93.1869 L1 FPR95TPR 80.3366
+[ 2022-11-11 23:18:29.342948 ] Epoch [ 098 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.220972 Time 173.951s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 95.4124 L1 FPR95TPR 82.8462
+[ 2022-11-11 23:21:21.063037 ] Epoch [ 099 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.108974 Time 171.720s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 95.1671 L1 FPR95TPR 81.9604
+[ 2022-11-11 23:24:15.802672 ] Epoch [ 100 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.306439 Time 174.740s
+`Trainer.fit` stopped: `max_epochs=100` reached.
+Total training time: 4:50:02.027034
+Global seed set to 1000002
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Using PID: 5964
+**********************************************************
+Starting Experiment: 3 / 5 with mixup on split split1
+**********************************************************
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+Adjusting learning rate of group 0 to 5.0000e-03.
+
+  | Name      | Type   | Params
+-------------------------------------
+0 | model     | ResNet | 23.7 M
+1 | soft_xent | SoftCE | 0     
+-------------------------------------
+23.7 M    Trainable params
+0         Non-trainable params
+23.7 M    Total params
+94.680    Total estimated model params size (MB)
+	 L1 AUROC 0.0000 L1 FPR95TPR 61.5385
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 53.9402 L1 FPR95TPR 44.3756
+[ 2022-11-11 23:32:09.881873 ] Epoch [ 001 / 100 ] Training ID Accuracy: 15.894% Epoch Loss: 23.555635 Time 188.659s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 83.3202 L1 FPR95TPR 88.5773
+[ 2022-11-11 23:35:04.819859 ] Epoch [ 002 / 100 ] Training ID Accuracy: 59.951% Epoch Loss: 16.950148 Time 174.938s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 73.3034 L1 FPR95TPR 93.4750
+[ 2022-11-11 23:37:58.139483 ] Epoch [ 003 / 100 ] Training ID Accuracy: 75.085% Epoch Loss: 14.747569 Time 173.320s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 87.1281 L1 FPR95TPR 79.2146
+[ 2022-11-11 23:40:52.459083 ] Epoch [ 004 / 100 ] Training ID Accuracy: 83.593% Epoch Loss: 13.858804 Time 174.320s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 87.0117 L1 FPR95TPR 95.8075
+[ 2022-11-11 23:43:46.730907 ] Epoch [ 005 / 100 ] Training ID Accuracy: 87.752% Epoch Loss: 13.108442 Time 174.272s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 91.4067 L1 FPR95TPR 86.9206
+[ 2022-11-11 23:46:39.751966 ] Epoch [ 006 / 100 ] Training ID Accuracy: 90.486% Epoch Loss: 12.594930 Time 173.021s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 82.5914 L1 FPR95TPR 75.4650
+[ 2022-11-11 23:49:34.753617 ] Epoch [ 007 / 100 ] Training ID Accuracy: 93.297% Epoch Loss: 12.423899 Time 175.002s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 87.4281 L1 FPR95TPR 90.8178
+[ 2022-11-11 23:52:30.525265 ] Epoch [ 008 / 100 ] Training ID Accuracy: 94.607% Epoch Loss: 12.132131 Time 175.772s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 89.1837 L1 FPR95TPR 75.4427
+[ 2022-11-11 23:55:26.420887 ] Epoch [ 009 / 100 ] Training ID Accuracy: 95.632% Epoch Loss: 12.002642 Time 175.896s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 91.2207 L1 FPR95TPR 95.4237
+[ 2022-11-11 23:58:20.507149 ] Epoch [ 010 / 100 ] Training ID Accuracy: 96.202% Epoch Loss: 11.863932 Time 174.086s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 92.8446 L1 FPR95TPR 89.1349
+[ 2022-11-12 00:01:16.528513 ] Epoch [ 011 / 100 ] Training ID Accuracy: 97.209% Epoch Loss: 11.609790 Time 176.021s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 91.2929 L1 FPR95TPR 87.7177
+[ 2022-11-12 00:04:11.582018 ] Epoch [ 012 / 100 ] Training ID Accuracy: 97.987% Epoch Loss: 11.342938 Time 175.053s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 93.3136 L1 FPR95TPR 97.8742
+[ 2022-11-12 00:07:06.308531 ] Epoch [ 013 / 100 ] Training ID Accuracy: 98.386% Epoch Loss: 11.249925 Time 174.726s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 92.7586 L1 FPR95TPR 86.0348
+[ 2022-11-12 00:10:00.064021 ] Epoch [ 014 / 100 ] Training ID Accuracy: 98.633% Epoch Loss: 11.345692 Time 173.755s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 90.4299 L1 FPR95TPR 78.5356
+[ 2022-11-12 00:12:54.736764 ] Epoch [ 015 / 100 ] Training ID Accuracy: 98.861% Epoch Loss: 11.234077 Time 174.673s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 93.5424 L1 FPR95TPR 92.3531
+[ 2022-11-12 00:15:48.230505 ] Epoch [ 016 / 100 ] Training ID Accuracy: 98.633% Epoch Loss: 11.264533 Time 173.494s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 97.0920 L1 FPR95TPR 94.5675
+[ 2022-11-12 00:18:41.568835 ] Epoch [ 017 / 100 ] Training ID Accuracy: 98.899% Epoch Loss: 11.004815 Time 173.338s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 92.7545 L1 FPR95TPR 86.9206
+[ 2022-11-12 00:21:35.777249 ] Epoch [ 018 / 100 ] Training ID Accuracy: 99.449% Epoch Loss: 10.870145 Time 174.208s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 92.3608 L1 FPR95TPR 73.5754
+[ 2022-11-12 00:24:29.128457 ] Epoch [ 019 / 100 ] Training ID Accuracy: 99.468% Epoch Loss: 10.950695 Time 173.351s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 92.8087 L1 FPR95TPR 96.5161
+[ 2022-11-12 00:27:23.445390 ] Epoch [ 020 / 100 ] Training ID Accuracy: 99.563% Epoch Loss: 10.856565 Time 174.317s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 91.2999 L1 FPR95TPR 97.7857
+[ 2022-11-12 00:30:18.989848 ] Epoch [ 021 / 100 ] Training ID Accuracy: 99.620% Epoch Loss: 10.918859 Time 175.544s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 94.2039 L1 FPR95TPR 86.6844
+[ 2022-11-12 00:33:14.276084 ] Epoch [ 022 / 100 ] Training ID Accuracy: 99.658% Epoch Loss: 10.642006 Time 175.286s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 96.8945 L1 FPR95TPR 94.4494
+[ 2022-11-12 00:36:09.284190 ] Epoch [ 023 / 100 ] Training ID Accuracy: 99.430% Epoch Loss: 10.827206 Time 175.008s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 91.6918 L1 FPR95TPR 94.0360
+[ 2022-11-12 00:39:03.131894 ] Epoch [ 024 / 100 ] Training ID Accuracy: 99.772% Epoch Loss: 10.434675 Time 173.848s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 93.0503 L1 FPR95TPR 90.6112
+[ 2022-11-12 00:41:57.212698 ] Epoch [ 025 / 100 ] Training ID Accuracy: 99.829% Epoch Loss: 10.761128 Time 174.081s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 95.1513 L1 FPR95TPR 93.5636
+[ 2022-11-12 00:44:51.192866 ] Epoch [ 026 / 100 ] Training ID Accuracy: 99.715% Epoch Loss: 10.641303 Time 173.980s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 97.0140 L1 FPR95TPR 93.5341
+[ 2022-11-12 00:47:46.049433 ] Epoch [ 027 / 100 ] Training ID Accuracy: 99.696% Epoch Loss: 10.892776 Time 174.856s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 94.4046 L1 FPR95TPR 93.8293
+[ 2022-11-12 00:50:41.071151 ] Epoch [ 028 / 100 ] Training ID Accuracy: 99.810% Epoch Loss: 10.655979 Time 175.022s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 92.0432 L1 FPR95TPR 83.0528
+[ 2022-11-12 00:53:33.843332 ] Epoch [ 029 / 100 ] Training ID Accuracy: 99.753% Epoch Loss: 10.580226 Time 172.772s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.7952 L1 FPR95TPR 98.1695
+[ 2022-11-12 00:56:28.511553 ] Epoch [ 030 / 100 ] Training ID Accuracy: 99.810% Epoch Loss: 10.396494 Time 174.668s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.7565 L1 FPR95TPR 94.6560
+[ 2022-11-12 00:59:22.159731 ] Epoch [ 031 / 100 ] Training ID Accuracy: 99.962% Epoch Loss: 10.473228 Time 173.648s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.7933 L1 FPR95TPR 96.0744
+[ 2022-11-12 01:02:17.028901 ] Epoch [ 032 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.240715 Time 174.869s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 93.9163 L1 FPR95TPR 95.8665
+[ 2022-11-12 01:05:10.841744 ] Epoch [ 033 / 100 ] Training ID Accuracy: 99.962% Epoch Loss: 10.369216 Time 173.813s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.1997 L1 FPR95TPR 93.7408
+[ 2022-11-12 01:08:04.095470 ] Epoch [ 034 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.111356 Time 173.254s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 93.5753 L1 FPR95TPR 97.7561
+[ 2022-11-12 01:10:57.488823 ] Epoch [ 035 / 100 ] Training ID Accuracy: 99.962% Epoch Loss: 10.377762 Time 173.393s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.4846 L1 FPR95TPR 97.6085
+[ 2022-11-12 01:13:51.822548 ] Epoch [ 036 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.258597 Time 174.334s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.9402 L1 FPR95TPR 97.6676
+[ 2022-11-12 01:16:45.807930 ] Epoch [ 037 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.205155 Time 173.985s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.3096 L1 FPR95TPR 92.5598
+[ 2022-11-12 01:19:39.049070 ] Epoch [ 038 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.179096 Time 173.241s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 96.2567 L1 FPR95TPR 94.4198
+[ 2022-11-12 01:22:33.679079 ] Epoch [ 039 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.324297 Time 174.630s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.6577 L1 FPR95TPR 92.0579
+[ 2022-11-12 01:25:29.165221 ] Epoch [ 040 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.237308 Time 175.486s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.7172 L1 FPR95TPR 95.5713
+[ 2022-11-12 01:28:24.623004 ] Epoch [ 041 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.076288 Time 175.458s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 97.3140 L1 FPR95TPR 94.5675
+[ 2022-11-12 01:31:19.162903 ] Epoch [ 042 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.145147 Time 174.540s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 92.5490 L1 FPR95TPR 95.1889
+[ 2022-11-12 01:34:14.839866 ] Epoch [ 043 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.247225 Time 175.677s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.4050 L1 FPR95TPR 93.3865
+[ 2022-11-12 01:37:08.392570 ] Epoch [ 044 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.321993 Time 173.553s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.0387 L1 FPR95TPR 95.3942
+[ 2022-11-12 01:40:02.426335 ] Epoch [ 045 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.183352 Time 174.034s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.7593 L1 FPR95TPR 87.0387
+[ 2022-11-12 01:42:57.291955 ] Epoch [ 046 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.291135 Time 174.866s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.7613 L1 FPR95TPR 90.5549
+[ 2022-11-12 01:45:50.497984 ] Epoch [ 047 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.517448 Time 173.206s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.3094 L1 FPR95TPR 97.3428
+[ 2022-11-12 01:48:44.184771 ] Epoch [ 048 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.162021 Time 173.687s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 93.6954 L1 FPR95TPR 95.8973
+[ 2022-11-12 01:51:37.456768 ] Epoch [ 049 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.311443 Time 173.272s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.6368 L1 FPR95TPR 97.3723
+[ 2022-11-12 01:54:32.219745 ] Epoch [ 050 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.286180 Time 174.763s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.0078 L1 FPR95TPR 94.8642
+[ 2022-11-12 01:57:26.630812 ] Epoch [ 051 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.298833 Time 174.411s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.3514 L1 FPR95TPR 90.8178
+[ 2022-11-12 02:00:20.372929 ] Epoch [ 052 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.247916 Time 173.742s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 93.8603 L1 FPR95TPR 93.7131
+[ 2022-11-12 02:03:12.395799 ] Epoch [ 053 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.119362 Time 172.023s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 96.7948 L1 FPR95TPR 91.9693
+[ 2022-11-12 02:06:06.385326 ] Epoch [ 054 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.169687 Time 173.989s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.3459 L1 FPR95TPR 93.4475
+[ 2022-11-12 02:08:59.431996 ] Epoch [ 055 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.061208 Time 173.047s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.7468 L1 FPR95TPR 96.6637
+[ 2022-11-12 02:11:54.559241 ] Epoch [ 056 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.301906 Time 175.127s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.5524 L1 FPR95TPR 91.5855
+[ 2022-11-12 02:14:48.242349 ] Epoch [ 057 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.087438 Time 173.683s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 93.4740 L1 FPR95TPR 94.9513
+[ 2022-11-12 02:17:41.849781 ] Epoch [ 058 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.344471 Time 173.607s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 92.5307 L1 FPR95TPR 90.6407
+[ 2022-11-12 02:20:35.340732 ] Epoch [ 059 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.206414 Time 173.491s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 93.3596 L1 FPR95TPR 94.8332
+[ 2022-11-12 02:23:29.907124 ] Epoch [ 060 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.224120 Time 174.566s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 96.0670 L1 FPR95TPR 84.2929
+[ 2022-11-12 02:26:24.255548 ] Epoch [ 061 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.279568 Time 174.348s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 98.1152 L1 FPR95TPR 93.5636
+[ 2022-11-12 02:29:19.561052 ] Epoch [ 062 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.165405 Time 175.305s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 92.8862 L1 FPR95TPR 84.9129
+[ 2022-11-12 02:32:12.900661 ] Epoch [ 063 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.267203 Time 173.340s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 93.3679 L1 FPR95TPR 92.8550
+[ 2022-11-12 02:35:07.500415 ] Epoch [ 064 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.183090 Time 174.600s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 93.2279 L1 FPR95TPR 94.3625
+[ 2022-11-12 02:38:00.794347 ] Epoch [ 065 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.284873 Time 173.294s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.0717 L1 FPR95TPR 91.3788
+[ 2022-11-12 02:40:54.455124 ] Epoch [ 066 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.191174 Time 173.661s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 93.0173 L1 FPR95TPR 91.2607
+[ 2022-11-12 02:43:47.465584 ] Epoch [ 067 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.329954 Time 173.010s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 95.6018 L1 FPR95TPR 93.3865
+[ 2022-11-12 02:46:41.738209 ] Epoch [ 068 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.365842 Time 174.273s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.9610 L1 FPR95TPR 92.3826
+[ 2022-11-12 02:49:35.611541 ] Epoch [ 069 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.282463 Time 173.873s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 95.7861 L1 FPR95TPR 86.1529
+[ 2022-11-12 02:52:28.994344 ] Epoch [ 070 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.363011 Time 173.383s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.2223 L1 FPR95TPR 93.3274
+[ 2022-11-12 02:55:24.750036 ] Epoch [ 071 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.244381 Time 175.756s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 95.4332 L1 FPR95TPR 91.7331
+[ 2022-11-12 02:58:18.850060 ] Epoch [ 072 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.000787 Time 174.100s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.6756 L1 FPR95TPR 77.3841
+[ 2022-11-12 03:01:12.176737 ] Epoch [ 073 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.322229 Time 173.327s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.3773 L1 FPR95TPR 78.0337
+[ 2022-11-12 03:04:05.432341 ] Epoch [ 074 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.169184 Time 173.256s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.8355 L1 FPR95TPR 94.2722
+[ 2022-11-12 03:06:59.468323 ] Epoch [ 075 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.274734 Time 174.036s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 96.3188 L1 FPR95TPR 92.6210
+[ 2022-11-12 03:09:54.413436 ] Epoch [ 076 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.017785 Time 174.945s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 93.8230 L1 FPR95TPR 89.6368
+[ 2022-11-12 03:12:48.221266 ] Epoch [ 077 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.225014 Time 173.808s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 95.4909 L1 FPR95TPR 92.7074
+[ 2022-11-12 03:15:42.592810 ] Epoch [ 078 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.059158 Time 174.372s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 93.7551 L1 FPR95TPR 95.8973
+[ 2022-11-12 03:18:36.717922 ] Epoch [ 079 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.350424 Time 174.125s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.3059 L1 FPR95TPR 69.5010
+[ 2022-11-12 03:21:31.548669 ] Epoch [ 080 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.284536 Time 174.831s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.0902 L1 FPR95TPR 95.1608
+[ 2022-11-12 03:24:25.712998 ] Epoch [ 081 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.307097 Time 174.164s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.5319 L1 FPR95TPR 95.4532
+[ 2022-11-12 03:27:20.081470 ] Epoch [ 082 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.215107 Time 174.368s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 93.7702 L1 FPR95TPR 85.4443
+[ 2022-11-12 03:30:13.540527 ] Epoch [ 083 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.148448 Time 173.459s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.4606 L1 FPR95TPR 94.7741
+[ 2022-11-12 03:33:07.204820 ] Epoch [ 084 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 9.917114 Time 173.664s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 96.7033 L1 FPR95TPR 95.3646
+[ 2022-11-12 03:36:01.872569 ] Epoch [ 085 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.161880 Time 174.668s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 95.0208 L1 FPR95TPR 96.6342
+[ 2022-11-12 03:38:56.063580 ] Epoch [ 086 / 100 ] Training ID Accuracy: 99.962% Epoch Loss: 9.978423 Time 174.191s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 93.8707 L1 FPR95TPR 87.6623
+[ 2022-11-12 03:41:51.448192 ] Epoch [ 087 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.412290 Time 175.385s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.6174 L1 FPR95TPR 93.7408
+[ 2022-11-12 03:44:45.581724 ] Epoch [ 088 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.277514 Time 174.133s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 96.1543 L1 FPR95TPR 95.1875
+[ 2022-11-12 03:47:39.600800 ] Epoch [ 089 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.395598 Time 174.019s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 95.7396 L1 FPR95TPR 94.3903
+[ 2022-11-12 03:50:33.297786 ] Epoch [ 090 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.232100 Time 173.697s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 93.5598 L1 FPR95TPR 95.6304
+[ 2022-11-12 03:53:28.158269 ] Epoch [ 091 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.126859 Time 174.860s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 94.9008 L1 FPR95TPR 97.7266
+[ 2022-11-12 03:56:22.675126 ] Epoch [ 092 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.243453 Time 174.517s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 94.8476 L1 FPR95TPR 95.9268
+[ 2022-11-12 03:59:16.949161 ] Epoch [ 093 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.222378 Time 174.274s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 96.8782 L1 FPR95TPR 88.4263
+[ 2022-11-12 04:02:12.389937 ] Epoch [ 094 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.190757 Time 175.441s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 95.0469 L1 FPR95TPR 89.4302
+[ 2022-11-12 04:05:06.639350 ] Epoch [ 095 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.136563 Time 174.249s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 95.0065 L1 FPR95TPR 88.2231
+[ 2022-11-12 04:08:00.674321 ] Epoch [ 096 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 9.964208 Time 174.035s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 95.8132 L1 FPR95TPR 96.1323
+[ 2022-11-12 04:10:55.466549 ] Epoch [ 097 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.326636 Time 174.792s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 92.2854 L1 FPR95TPR 88.5149
+[ 2022-11-12 04:13:49.245889 ] Epoch [ 098 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.407323 Time 173.779s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 96.0162 L1 FPR95TPR 94.8627
+[ 2022-11-12 04:16:42.857119 ] Epoch [ 099 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.430178 Time 173.611s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 97.0175 L1 FPR95TPR 95.7189
+[ 2022-11-12 04:19:37.496213 ] Epoch [ 100 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.286695 Time 174.639s
+`Trainer.fit` stopped: `max_epochs=100` reached.
+Total training time: 4:50:32.620487
+Global seed set to 1000003
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Using PID: 5964
+**********************************************************
+Starting Experiment: 4 / 5 with mixup on split split1
+**********************************************************
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+Adjusting learning rate of group 0 to 5.0000e-03.
+
+  | Name      | Type   | Params
+-------------------------------------
+0 | model     | ResNet | 23.7 M
+1 | soft_xent | SoftCE | 0     
+-------------------------------------
+23.7 M    Trainable params
+0         Non-trainable params
+23.7 M    Total params
+94.680    Total estimated model params size (MB)
+	 L1 AUROC 0.0000 L1 FPR95TPR 100.0000
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 71.4500 L1 FPR95TPR 68.7924
+[ 2022-11-12 04:27:29.593500 ] Epoch [ 001 / 100 ] Training ID Accuracy: 17.509% Epoch Loss: 23.239964 Time 192.720s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 84.8458 L1 FPR95TPR 83.9091
+[ 2022-11-12 04:30:28.619013 ] Epoch [ 002 / 100 ] Training ID Accuracy: 59.875% Epoch Loss: 16.889484 Time 179.025s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 82.3846 L1 FPR95TPR 82.5214
+[ 2022-11-12 04:33:27.202001 ] Epoch [ 003 / 100 ] Training ID Accuracy: 76.814% Epoch Loss: 14.847816 Time 178.583s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 87.5569 L1 FPR95TPR 85.1535
+[ 2022-11-12 04:36:25.254293 ] Epoch [ 004 / 100 ] Training ID Accuracy: 82.928% Epoch Loss: 13.909342 Time 178.052s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 93.2552 L1 FPR95TPR 90.4045
+[ 2022-11-12 04:39:23.706046 ] Epoch [ 005 / 100 ] Training ID Accuracy: 87.258% Epoch Loss: 13.294798 Time 178.452s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 90.3367 L1 FPR95TPR 76.9117
+[ 2022-11-12 04:42:22.248121 ] Epoch [ 006 / 100 ] Training ID Accuracy: 90.277% Epoch Loss: 12.968640 Time 178.542s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 93.9825 L1 FPR95TPR 89.5809
+[ 2022-11-12 04:45:20.083274 ] Epoch [ 007 / 100 ] Training ID Accuracy: 92.138% Epoch Loss: 12.477616 Time 177.835s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 93.4328 L1 FPR95TPR 73.7231
+[ 2022-11-12 04:48:18.429322 ] Epoch [ 008 / 100 ] Training ID Accuracy: 93.866% Epoch Loss: 12.171762 Time 178.346s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 86.9221 L1 FPR95TPR 78.3880
+[ 2022-11-12 04:51:15.649498 ] Epoch [ 009 / 100 ] Training ID Accuracy: 95.234% Epoch Loss: 12.273203 Time 177.220s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 90.4392 L1 FPR95TPR 75.9150
+[ 2022-11-12 04:54:13.669639 ] Epoch [ 010 / 100 ] Training ID Accuracy: 96.259% Epoch Loss: 11.713619 Time 178.020s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 92.9455 L1 FPR95TPR 88.3968
+[ 2022-11-12 04:57:10.713059 ] Epoch [ 011 / 100 ] Training ID Accuracy: 96.734% Epoch Loss: 11.526196 Time 177.043s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 93.0520 L1 FPR95TPR 80.8680
+[ 2022-11-12 05:00:05.300043 ] Epoch [ 012 / 100 ] Training ID Accuracy: 97.854% Epoch Loss: 11.548374 Time 174.587s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 93.3597 L1 FPR95TPR 87.6882
+[ 2022-11-12 05:02:58.219694 ] Epoch [ 013 / 100 ] Training ID Accuracy: 98.044% Epoch Loss: 11.280518 Time 172.920s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 92.3194 L1 FPR95TPR 88.8987
+[ 2022-11-12 05:05:52.091429 ] Epoch [ 014 / 100 ] Training ID Accuracy: 98.310% Epoch Loss: 11.417937 Time 173.872s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 93.0454 L1 FPR95TPR 79.2146
+[ 2022-11-12 05:08:45.938517 ] Epoch [ 015 / 100 ] Training ID Accuracy: 98.348% Epoch Loss: 11.139471 Time 173.847s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 94.0364 L1 FPR95TPR 95.6008
+[ 2022-11-12 05:11:39.350619 ] Epoch [ 016 / 100 ] Training ID Accuracy: 98.956% Epoch Loss: 11.178720 Time 173.412s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 92.8404 L1 FPR95TPR 87.1568
+[ 2022-11-12 05:14:34.004986 ] Epoch [ 017 / 100 ] Training ID Accuracy: 99.051% Epoch Loss: 10.858772 Time 174.654s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 93.9367 L1 FPR95TPR 80.0709
+[ 2022-11-12 05:17:28.539640 ] Epoch [ 018 / 100 ] Training ID Accuracy: 99.411% Epoch Loss: 11.024124 Time 174.535s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 93.4029 L1 FPR95TPR 74.4317
+[ 2022-11-12 05:20:23.314228 ] Epoch [ 019 / 100 ] Training ID Accuracy: 99.373% Epoch Loss: 11.019508 Time 174.775s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 94.4617 L1 FPR95TPR 84.2043
+[ 2022-11-12 05:23:16.769730 ] Epoch [ 020 / 100 ] Training ID Accuracy: 99.316% Epoch Loss: 10.769439 Time 173.455s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 92.6969 L1 FPR95TPR 80.2185
+[ 2022-11-12 05:26:10.439347 ] Epoch [ 021 / 100 ] Training ID Accuracy: 99.430% Epoch Loss: 11.093006 Time 173.670s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 95.9766 L1 FPR95TPR 82.9347
+[ 2022-11-12 05:29:04.474415 ] Epoch [ 022 / 100 ] Training ID Accuracy: 99.620% Epoch Loss: 10.689803 Time 174.035s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 95.9078 L1 FPR95TPR 82.7281
+[ 2022-11-12 05:31:57.825880 ] Epoch [ 023 / 100 ] Training ID Accuracy: 99.525% Epoch Loss: 10.572060 Time 173.351s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 94.5033 L1 FPR95TPR 96.8704
+[ 2022-11-12 05:34:51.989857 ] Epoch [ 024 / 100 ] Training ID Accuracy: 99.411% Epoch Loss: 10.822835 Time 174.164s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 94.7889 L1 FPR95TPR 67.7000
+[ 2022-11-12 05:37:45.352970 ] Epoch [ 025 / 100 ] Training ID Accuracy: 99.753% Epoch Loss: 10.849552 Time 173.363s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 94.5177 L1 FPR95TPR 87.8689
+[ 2022-11-12 05:40:40.080723 ] Epoch [ 026 / 100 ] Training ID Accuracy: 99.753% Epoch Loss: 10.630841 Time 174.728s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 92.7028 L1 FPR95TPR 76.4098
+[ 2022-11-12 05:43:33.643011 ] Epoch [ 027 / 100 ] Training ID Accuracy: 99.810% Epoch Loss: 10.690675 Time 173.562s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 96.0422 L1 FPR95TPR 83.9728
+[ 2022-11-12 05:46:27.664266 ] Epoch [ 028 / 100 ] Training ID Accuracy: 99.734% Epoch Loss: 10.617175 Time 174.021s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 92.7754 L1 FPR95TPR 93.4455
+[ 2022-11-12 05:49:21.919303 ] Epoch [ 029 / 100 ] Training ID Accuracy: 99.886% Epoch Loss: 10.504725 Time 174.255s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 93.7518 L1 FPR95TPR 80.3071
+[ 2022-11-12 05:52:15.210035 ] Epoch [ 030 / 100 ] Training ID Accuracy: 99.848% Epoch Loss: 10.500492 Time 173.291s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.1960 L1 FPR95TPR 72.3059
+[ 2022-11-12 05:55:09.584737 ] Epoch [ 031 / 100 ] Training ID Accuracy: 99.905% Epoch Loss: 10.390315 Time 174.375s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.0884 L1 FPR95TPR 68.2610
+[ 2022-11-12 05:58:02.431391 ] Epoch [ 032 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.460531 Time 172.847s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.3090 L1 FPR95TPR 77.2660
+[ 2022-11-12 06:00:56.234544 ] Epoch [ 033 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.338250 Time 173.803s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.4434 L1 FPR95TPR 78.4175
+[ 2022-11-12 06:03:48.136102 ] Epoch [ 034 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.204947 Time 171.902s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 96.2767 L1 FPR95TPR 83.1414
+[ 2022-11-12 06:06:42.031132 ] Epoch [ 035 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.391220 Time 173.895s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.6211 L1 FPR95TPR 83.5843
+[ 2022-11-12 06:09:34.074757 ] Epoch [ 036 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.450371 Time 172.044s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.2285 L1 FPR95TPR 77.8926
+[ 2022-11-12 06:12:27.964128 ] Epoch [ 037 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.246114 Time 173.889s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.4879 L1 FPR95TPR 67.4734
+[ 2022-11-12 06:15:22.632864 ] Epoch [ 038 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 9.936898 Time 174.669s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.3909 L1 FPR95TPR 82.5805
+[ 2022-11-12 06:18:17.803870 ] Epoch [ 039 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.429173 Time 175.171s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 96.1195 L1 FPR95TPR 79.2146
+[ 2022-11-12 06:21:10.951530 ] Epoch [ 040 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.372223 Time 173.148s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.5148 L1 FPR95TPR 87.5996
+[ 2022-11-12 06:24:05.154716 ] Epoch [ 041 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.260085 Time 174.203s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.0047 L1 FPR95TPR 83.1414
+[ 2022-11-12 06:26:59.464241 ] Epoch [ 042 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.089261 Time 174.310s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.7550 L1 FPR95TPR 79.4804
+[ 2022-11-12 06:29:52.205993 ] Epoch [ 043 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.427264 Time 172.742s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 96.0448 L1 FPR95TPR 87.0720
+[ 2022-11-12 06:32:45.260832 ] Epoch [ 044 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.138126 Time 173.055s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.6327 L1 FPR95TPR 87.1901
+[ 2022-11-12 06:35:39.326203 ] Epoch [ 045 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.120881 Time 174.065s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.5330 L1 FPR95TPR 81.0156
+[ 2022-11-12 06:38:32.216782 ] Epoch [ 046 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.352544 Time 172.891s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.4232 L1 FPR95TPR 81.1337
+[ 2022-11-12 06:41:26.518834 ] Epoch [ 047 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 9.940632 Time 174.302s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.1088 L1 FPR95TPR 85.9758
+[ 2022-11-12 06:44:21.482170 ] Epoch [ 048 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.172813 Time 174.963s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 96.9233 L1 FPR95TPR 83.4662
+[ 2022-11-12 06:47:13.412890 ] Epoch [ 049 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.012219 Time 171.931s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 96.1763 L1 FPR95TPR 83.6433
+[ 2022-11-12 06:50:06.535453 ] Epoch [ 050 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.245245 Time 173.123s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.7517 L1 FPR95TPR 83.4662
+[ 2022-11-12 06:52:58.947640 ] Epoch [ 051 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.209707 Time 172.412s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.0151 L1 FPR95TPR 91.1131
+[ 2022-11-12 06:55:52.430716 ] Epoch [ 052 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.092359 Time 173.483s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.9491 L1 FPR95TPR 81.1042
+[ 2022-11-12 06:58:44.367541 ] Epoch [ 053 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.285812 Time 171.937s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.7985 L1 FPR95TPR 77.5317
+[ 2022-11-12 07:01:37.777295 ] Epoch [ 054 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.150750 Time 173.410s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.5417 L1 FPR95TPR 68.0248
+[ 2022-11-12 07:04:31.944693 ] Epoch [ 055 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.285654 Time 174.167s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.6110 L1 FPR95TPR 79.0375
+[ 2022-11-12 07:07:26.303056 ] Epoch [ 056 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.329606 Time 174.358s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 92.6306 L1 FPR95TPR 83.9433
+[ 2022-11-12 07:10:18.536830 ] Epoch [ 057 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.270895 Time 172.234s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.5701 L1 FPR95TPR 82.3443
+[ 2022-11-12 07:13:12.348827 ] Epoch [ 058 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.385397 Time 173.812s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.5828 L1 FPR95TPR 57.5731
+[ 2022-11-12 07:16:06.333511 ] Epoch [ 059 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.447825 Time 173.985s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 93.4169 L1 FPR95TPR 74.2250
+[ 2022-11-12 07:19:00.779784 ] Epoch [ 060 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.134614 Time 174.446s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 95.0029 L1 FPR95TPR 83.9681
+[ 2022-11-12 07:21:55.775221 ] Epoch [ 061 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.044627 Time 174.995s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 95.6470 L1 FPR95TPR 80.6023
+[ 2022-11-12 07:24:49.852866 ] Epoch [ 062 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.225623 Time 174.078s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 93.7571 L1 FPR95TPR 80.9861
+[ 2022-11-12 07:27:44.572743 ] Epoch [ 063 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.163491 Time 174.720s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.7540 L1 FPR95TPR 76.8300
+[ 2022-11-12 07:30:37.601165 ] Epoch [ 064 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.283677 Time 173.028s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 95.5355 L1 FPR95TPR 83.4071
+[ 2022-11-12 07:33:32.062600 ] Epoch [ 065 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.219673 Time 174.461s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 92.5342 L1 FPR95TPR 73.3392
+[ 2022-11-12 07:36:28.156528 ] Epoch [ 066 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.148875 Time 176.094s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 96.8221 L1 FPR95TPR 74.8229
+[ 2022-11-12 07:39:20.086112 ] Epoch [ 067 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.373342 Time 171.929s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 93.8607 L1 FPR95TPR 75.5536
+[ 2022-11-12 07:42:13.354091 ] Epoch [ 068 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.151638 Time 173.268s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 92.4774 L1 FPR95TPR 78.4765
+[ 2022-11-12 07:45:07.187742 ] Epoch [ 069 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.399081 Time 173.834s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.1918 L1 FPR95TPR 74.8155
+[ 2022-11-12 07:47:59.535845 ] Epoch [ 070 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.039849 Time 172.348s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 96.2950 L1 FPR95TPR 73.0440
+[ 2022-11-12 07:50:52.108541 ] Epoch [ 071 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.082989 Time 172.573s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.5656 L1 FPR95TPR 81.3404
+[ 2022-11-12 07:53:45.719670 ] Epoch [ 072 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.203651 Time 173.611s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 96.3940 L1 FPR95TPR 76.9708
+[ 2022-11-12 07:56:40.083815 ] Epoch [ 073 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.361962 Time 174.364s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 95.2026 L1 FPR95TPR 71.6268
+[ 2022-11-12 07:59:34.354903 ] Epoch [ 074 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.330225 Time 174.271s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.6365 L1 FPR95TPR 73.3097
+[ 2022-11-12 08:02:29.699892 ] Epoch [ 075 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.148070 Time 175.345s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 92.5511 L1 FPR95TPR 83.8500
+[ 2022-11-12 08:05:23.464780 ] Epoch [ 076 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.087293 Time 173.765s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 96.5562 L1 FPR95TPR 77.0071
+[ 2022-11-12 08:08:17.487651 ] Epoch [ 077 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.010180 Time 174.023s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.7686 L1 FPR95TPR 77.1184
+[ 2022-11-12 08:11:12.162529 ] Epoch [ 078 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.265953 Time 174.675s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 93.0062 L1 FPR95TPR 74.4021
+[ 2022-11-12 08:14:06.697742 ] Epoch [ 079 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.275778 Time 174.535s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 93.5441 L1 FPR95TPR 74.6678
+[ 2022-11-12 08:17:02.223238 ] Epoch [ 080 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.180589 Time 175.525s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 96.6126 L1 FPR95TPR 75.0517
+[ 2022-11-12 08:19:56.242444 ] Epoch [ 081 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.263045 Time 174.019s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.5032 L1 FPR95TPR 77.4432
+[ 2022-11-12 08:22:50.164386 ] Epoch [ 082 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.171625 Time 173.922s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 95.2073 L1 FPR95TPR 71.2135
+[ 2022-11-12 08:25:43.587434 ] Epoch [ 083 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.252769 Time 173.423s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 93.4015 L1 FPR95TPR 82.5856
+[ 2022-11-12 08:28:38.387939 ] Epoch [ 084 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 9.855443 Time 174.800s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 95.2386 L1 FPR95TPR 79.7756
+[ 2022-11-12 08:31:32.461840 ] Epoch [ 085 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.396577 Time 174.074s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.3458 L1 FPR95TPR 78.5356
+[ 2022-11-12 08:34:25.817166 ] Epoch [ 086 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.084113 Time 173.355s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 95.2085 L1 FPR95TPR 82.4328
+[ 2022-11-12 08:37:18.723501 ] Epoch [ 087 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.371842 Time 172.906s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.0952 L1 FPR95TPR 75.6422
+[ 2022-11-12 08:40:13.418553 ] Epoch [ 088 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.082447 Time 174.695s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 96.6165 L1 FPR95TPR 73.8412
+[ 2022-11-12 08:43:07.821227 ] Epoch [ 089 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.255508 Time 174.403s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 95.2980 L1 FPR95TPR 78.0632
+[ 2022-11-12 08:46:01.449480 ] Epoch [ 090 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.213750 Time 173.628s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 96.7290 L1 FPR95TPR 73.6640
+[ 2022-11-12 08:48:55.240548 ] Epoch [ 091 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.267984 Time 173.791s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 94.6678 L1 FPR95TPR 79.3623
+[ 2022-11-12 08:51:48.635156 ] Epoch [ 092 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.354738 Time 173.395s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 93.6884 L1 FPR95TPR 75.2288
+[ 2022-11-12 08:54:43.045732 ] Epoch [ 093 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.375697 Time 174.411s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 96.0292 L1 FPR95TPR 72.1287
+[ 2022-11-12 08:57:35.874419 ] Epoch [ 094 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.204494 Time 172.829s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 93.7266 L1 FPR95TPR 77.4860
+[ 2022-11-12 09:00:31.510613 ] Epoch [ 095 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 9.972946 Time 175.636s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 95.9802 L1 FPR95TPR 77.9516
+[ 2022-11-12 09:03:25.130114 ] Epoch [ 096 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.516267 Time 173.619s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 95.8636 L1 FPR95TPR 79.2442
+[ 2022-11-12 09:06:18.578442 ] Epoch [ 097 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.164299 Time 173.448s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 94.6231 L1 FPR95TPR 78.2403
+[ 2022-11-12 09:09:12.087388 ] Epoch [ 098 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.372476 Time 173.509s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 93.1809 L1 FPR95TPR 79.4213
+[ 2022-11-12 09:12:05.638829 ] Epoch [ 099 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.129799 Time 173.551s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 94.8621 L1 FPR95TPR 65.2790
+[ 2022-11-12 09:15:00.209934 ] Epoch [ 100 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.178404 Time 174.571s
+`Trainer.fit` stopped: `max_epochs=100` reached.
+Total training time: 4:50:40.017388
+Global seed set to 1000004
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Using PID: 5964
+**********************************************************
+Starting Experiment: 5 / 5 with mixup on split split1
+**********************************************************
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+Adjusting learning rate of group 0 to 5.0000e-03.
+
+  | Name      | Type   | Params
+-------------------------------------
+0 | model     | ResNet | 23.7 M
+1 | soft_xent | SoftCE | 0     
+-------------------------------------
+23.7 M    Trainable params
+0         Non-trainable params
+23.7 M    Total params
+94.680    Total estimated model params size (MB)
+	 L1 AUROC 0.0000 L1 FPR95TPR 82.0513
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 57.5702 L1 FPR95TPR 90.4340
+[ 2022-11-12 09:22:47.605765 ] Epoch [ 001 / 100 ] Training ID Accuracy: 17.357% Epoch Loss: 23.320221 Time 188.736s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 78.8929 L1 FPR95TPR 84.3224
+[ 2022-11-12 09:25:40.587185 ] Epoch [ 002 / 100 ] Training ID Accuracy: 58.792% Epoch Loss: 17.004850 Time 172.981s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 85.4229 L1 FPR95TPR 91.6445
+[ 2022-11-12 09:28:34.993918 ] Epoch [ 003 / 100 ] Training ID Accuracy: 75.826% Epoch Loss: 14.777247 Time 174.407s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 84.5017 L1 FPR95TPR 70.0620
+[ 2022-11-12 09:31:28.370831 ] Epoch [ 004 / 100 ] Training ID Accuracy: 82.928% Epoch Loss: 13.938780 Time 173.377s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 87.2672 L1 FPR95TPR 94.6560
+[ 2022-11-12 09:34:22.321451 ] Epoch [ 005 / 100 ] Training ID Accuracy: 87.239% Epoch Loss: 13.379572 Time 173.951s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 91.7593 L1 FPR95TPR 93.0912
+[ 2022-11-12 09:37:15.241597 ] Epoch [ 006 / 100 ] Training ID Accuracy: 90.220% Epoch Loss: 12.657784 Time 172.920s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 91.3187 L1 FPR95TPR 76.7346
+[ 2022-11-12 09:40:06.765223 ] Epoch [ 007 / 100 ] Training ID Accuracy: 92.176% Epoch Loss: 12.514829 Time 171.524s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 92.7361 L1 FPR95TPR 91.4674
+[ 2022-11-12 09:43:00.871011 ] Epoch [ 008 / 100 ] Training ID Accuracy: 93.695% Epoch Loss: 12.378251 Time 174.106s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 89.3225 L1 FPR95TPR 86.6549
+[ 2022-11-12 09:45:55.081881 ] Epoch [ 009 / 100 ] Training ID Accuracy: 95.651% Epoch Loss: 11.976594 Time 174.211s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 91.4471 L1 FPR95TPR 68.5065
+[ 2022-11-12 09:48:47.465671 ] Epoch [ 010 / 100 ] Training ID Accuracy: 96.601% Epoch Loss: 11.610699 Time 172.384s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 91.3341 L1 FPR95TPR 88.5740
+[ 2022-11-12 09:51:40.067762 ] Epoch [ 011 / 100 ] Training ID Accuracy: 97.341% Epoch Loss: 11.625554 Time 172.602s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 90.6239 L1 FPR95TPR 92.5303
+[ 2022-11-12 09:54:34.261980 ] Epoch [ 012 / 100 ] Training ID Accuracy: 97.474% Epoch Loss: 11.389546 Time 174.194s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 89.5128 L1 FPR95TPR 81.2518
+[ 2022-11-12 09:57:27.759619 ] Epoch [ 013 / 100 ] Training ID Accuracy: 98.348% Epoch Loss: 11.393731 Time 173.498s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 97.3071 L1 FPR95TPR 57.6446
+[ 2022-11-12 10:00:19.722430 ] Epoch [ 014 / 100 ] Training ID Accuracy: 98.557% Epoch Loss: 11.274166 Time 171.963s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 92.4904 L1 FPR95TPR 73.7526
+[ 2022-11-12 10:03:11.203238 ] Epoch [ 015 / 100 ] Training ID Accuracy: 98.443% Epoch Loss: 11.313253 Time 171.481s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 93.0727 L1 FPR95TPR 78.9489
+[ 2022-11-12 10:06:06.451075 ] Epoch [ 016 / 100 ] Training ID Accuracy: 99.070% Epoch Loss: 11.177933 Time 175.248s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 89.5563 L1 FPR95TPR 89.0759
+[ 2022-11-12 10:08:58.601595 ] Epoch [ 017 / 100 ] Training ID Accuracy: 99.411% Epoch Loss: 10.965450 Time 172.150s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 92.6038 L1 FPR95TPR 78.4175
+[ 2022-11-12 10:11:52.286649 ] Epoch [ 018 / 100 ] Training ID Accuracy: 99.620% Epoch Loss: 10.951771 Time 173.685s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 92.9218 L1 FPR95TPR 81.3459
+[ 2022-11-12 10:14:45.915546 ] Epoch [ 019 / 100 ] Training ID Accuracy: 99.582% Epoch Loss: 10.842684 Time 173.629s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 94.7268 L1 FPR95TPR 91.5855
+[ 2022-11-12 10:17:39.164314 ] Epoch [ 020 / 100 ] Training ID Accuracy: 99.430% Epoch Loss: 11.005483 Time 173.249s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 92.1206 L1 FPR95TPR 94.6560
+[ 2022-11-12 10:20:33.046356 ] Epoch [ 021 / 100 ] Training ID Accuracy: 99.373% Epoch Loss: 10.796874 Time 173.882s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 91.8184 L1 FPR95TPR 95.6304
+[ 2022-11-12 10:23:26.902875 ] Epoch [ 022 / 100 ] Training ID Accuracy: 99.297% Epoch Loss: 10.981631 Time 173.856s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 94.9247 L1 FPR95TPR 93.8589
+[ 2022-11-12 10:26:20.205193 ] Epoch [ 023 / 100 ] Training ID Accuracy: 99.430% Epoch Loss: 11.018860 Time 173.302s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 91.8400 L1 FPR95TPR 95.0399
+[ 2022-11-12 10:29:14.519268 ] Epoch [ 024 / 100 ] Training ID Accuracy: 99.601% Epoch Loss: 10.847877 Time 174.314s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 95.6242 L1 FPR95TPR 93.5341
+[ 2022-11-12 10:32:09.254088 ] Epoch [ 025 / 100 ] Training ID Accuracy: 99.791% Epoch Loss: 10.618061 Time 174.735s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 95.7404 L1 FPR95TPR 93.7113
+[ 2022-11-12 10:35:02.414980 ] Epoch [ 026 / 100 ] Training ID Accuracy: 99.696% Epoch Loss: 10.482756 Time 173.161s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 96.2054 L1 FPR95TPR 94.9808
+[ 2022-11-12 10:37:56.444851 ] Epoch [ 027 / 100 ] Training ID Accuracy: 99.772% Epoch Loss: 10.632412 Time 174.030s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 94.5955 L1 FPR95TPR 87.5701
+[ 2022-11-12 10:40:50.213194 ] Epoch [ 028 / 100 ] Training ID Accuracy: 99.772% Epoch Loss: 10.699245 Time 173.768s
+Adjusting learning rate of group 0 to 5.0000e-03.
+	 L1 AUROC 96.2348 L1 FPR95TPR 97.6380
+[ 2022-11-12 10:43:43.770342 ] Epoch [ 029 / 100 ] Training ID Accuracy: 99.867% Epoch Loss: 10.441651 Time 173.557s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 90.9387 L1 FPR95TPR 89.6368
+[ 2022-11-12 10:46:37.116939 ] Epoch [ 030 / 100 ] Training ID Accuracy: 99.791% Epoch Loss: 10.437482 Time 173.347s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 92.3765 L1 FPR95TPR 89.5483
+[ 2022-11-12 10:49:31.736607 ] Epoch [ 031 / 100 ] Training ID Accuracy: 99.943% Epoch Loss: 10.462312 Time 174.620s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.5261 L1 FPR95TPR 85.7101
+[ 2022-11-12 10:52:26.600004 ] Epoch [ 032 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.510204 Time 174.863s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.3603 L1 FPR95TPR 94.0951
+[ 2022-11-12 10:55:21.007803 ] Epoch [ 033 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.210020 Time 174.408s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.9225 L1 FPR95TPR 93.4160
+[ 2022-11-12 10:58:14.758408 ] Epoch [ 034 / 100 ] Training ID Accuracy: 99.962% Epoch Loss: 10.233354 Time 173.751s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.1133 L1 FPR95TPR 91.5855
+[ 2022-11-12 11:01:08.235452 ] Epoch [ 035 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.495941 Time 173.477s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.0023 L1 FPR95TPR 88.9283
+[ 2022-11-12 11:04:00.635099 ] Epoch [ 036 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.304096 Time 172.400s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 96.8497 L1 FPR95TPR 91.1721
+[ 2022-11-12 11:06:54.368056 ] Epoch [ 037 / 100 ] Training ID Accuracy: 99.962% Epoch Loss: 10.159782 Time 173.733s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.7939 L1 FPR95TPR 91.3493
+[ 2022-11-12 11:09:48.781951 ] Epoch [ 038 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.325636 Time 174.414s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.4676 L1 FPR95TPR 88.7511
+[ 2022-11-12 11:12:41.613988 ] Epoch [ 039 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.374450 Time 172.832s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 96.0423 L1 FPR95TPR 95.3646
+[ 2022-11-12 11:15:34.417516 ] Epoch [ 040 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.418245 Time 172.803s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.7783 L1 FPR95TPR 93.0027
+[ 2022-11-12 11:18:26.625626 ] Epoch [ 041 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.358292 Time 172.208s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 93.5592 L1 FPR95TPR 93.1798
+[ 2022-11-12 11:21:19.371523 ] Epoch [ 042 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.173543 Time 172.746s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.3070 L1 FPR95TPR 90.4931
+[ 2022-11-12 11:24:13.145272 ] Epoch [ 043 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.130432 Time 173.774s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.1514 L1 FPR95TPR 91.3788
+[ 2022-11-12 11:27:07.756302 ] Epoch [ 044 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.233729 Time 174.611s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.5088 L1 FPR95TPR 92.9436
+[ 2022-11-12 11:30:00.869291 ] Epoch [ 045 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.206664 Time 173.113s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.3697 L1 FPR95TPR 92.7074
+[ 2022-11-12 11:32:53.046658 ] Epoch [ 046 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.207661 Time 172.177s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.6123 L1 FPR95TPR 93.1503
+[ 2022-11-12 11:35:46.572464 ] Epoch [ 047 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.127864 Time 173.526s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 93.9717 L1 FPR95TPR 90.4340
+[ 2022-11-12 11:38:38.855201 ] Epoch [ 048 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.104898 Time 172.283s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.1373 L1 FPR95TPR 95.7484
+[ 2022-11-12 11:41:34.543463 ] Epoch [ 049 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.368274 Time 175.688s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 96.9486 L1 FPR95TPR 90.0207
+[ 2022-11-12 11:44:26.947282 ] Epoch [ 050 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.416118 Time 172.404s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 96.8978 L1 FPR95TPR 87.6587
+[ 2022-11-12 11:47:19.627549 ] Epoch [ 051 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.135534 Time 172.680s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 96.4684 L1 FPR95TPR 97.0475
+[ 2022-11-12 11:50:13.127516 ] Epoch [ 052 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.262446 Time 173.500s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 95.4565 L1 FPR95TPR 93.3274
+[ 2022-11-12 11:53:07.305244 ] Epoch [ 053 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.321284 Time 174.178s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 96.2985 L1 FPR95TPR 90.8474
+[ 2022-11-12 11:56:01.095146 ] Epoch [ 054 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.184711 Time 173.790s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.8510 L1 FPR95TPR 86.8615
+[ 2022-11-12 11:58:54.331170 ] Epoch [ 055 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.300175 Time 173.236s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 96.8173 L1 FPR95TPR 91.7036
+[ 2022-11-12 12:01:48.172199 ] Epoch [ 056 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.115839 Time 173.841s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.9028 L1 FPR95TPR 91.5264
+[ 2022-11-12 12:04:40.359174 ] Epoch [ 057 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.220382 Time 172.187s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 96.6143 L1 FPR95TPR 87.2749
+[ 2022-11-12 12:07:33.659026 ] Epoch [ 058 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.232495 Time 173.300s
+Adjusting learning rate of group 0 to 5.0000e-04.
+	 L1 AUROC 94.5238 L1 FPR95TPR 94.2427
+[ 2022-11-12 12:10:27.953439 ] Epoch [ 059 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.079777 Time 174.294s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 95.2375 L1 FPR95TPR 87.6292
+[ 2022-11-12 12:13:22.493199 ] Epoch [ 060 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.004289 Time 174.540s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 95.2474 L1 FPR95TPR 95.5418
+[ 2022-11-12 12:16:16.557502 ] Epoch [ 061 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.268364 Time 174.064s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 93.1343 L1 FPR95TPR 91.4379
+[ 2022-11-12 12:19:08.583617 ] Epoch [ 062 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.082141 Time 172.026s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 96.7489 L1 FPR95TPR 92.1760
+[ 2022-11-12 12:22:00.997395 ] Epoch [ 063 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.256358 Time 172.414s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.2704 L1 FPR95TPR 91.5559
+[ 2022-11-12 12:24:54.072931 ] Epoch [ 064 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.259405 Time 173.076s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 96.6712 L1 FPR95TPR 93.1798
+[ 2022-11-12 12:27:47.975433 ] Epoch [ 065 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.327625 Time 173.902s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.7286 L1 FPR95TPR 92.4122
+[ 2022-11-12 12:30:41.591506 ] Epoch [ 066 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.240036 Time 173.616s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 93.8311 L1 FPR95TPR 93.2389
+[ 2022-11-12 12:33:35.325649 ] Epoch [ 067 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.445156 Time 173.734s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 95.6704 L1 FPR95TPR 91.0836
+[ 2022-11-12 12:36:28.560508 ] Epoch [ 068 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.275872 Time 173.235s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 95.3090 L1 FPR95TPR 85.8577
+[ 2022-11-12 12:39:22.857517 ] Epoch [ 069 / 100 ] Training ID Accuracy: 99.981% Epoch Loss: 10.166121 Time 174.297s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.9820 L1 FPR95TPR 91.7331
+[ 2022-11-12 12:42:15.064888 ] Epoch [ 070 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.360674 Time 172.207s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 96.1213 L1 FPR95TPR 91.7626
+[ 2022-11-12 12:45:09.705966 ] Epoch [ 071 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.169268 Time 174.641s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 95.3290 L1 FPR95TPR 90.5226
+[ 2022-11-12 12:48:01.856429 ] Epoch [ 072 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.254355 Time 172.150s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 96.9108 L1 FPR95TPR 82.2019
+[ 2022-11-12 12:50:56.404969 ] Epoch [ 073 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.230479 Time 174.548s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.2872 L1 FPR95TPR 89.2562
+[ 2022-11-12 12:53:50.948507 ] Epoch [ 074 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.362474 Time 174.544s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 95.9808 L1 FPR95TPR 91.7946
+[ 2022-11-12 12:56:44.444307 ] Epoch [ 075 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.218139 Time 173.496s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 95.5196 L1 FPR95TPR 78.6242
+[ 2022-11-12 12:59:38.253568 ] Epoch [ 076 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.204639 Time 173.809s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.8916 L1 FPR95TPR 92.0579
+[ 2022-11-12 13:02:31.706342 ] Epoch [ 077 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.222496 Time 173.453s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 96.2358 L1 FPR95TPR 86.9501
+[ 2022-11-12 13:05:24.585892 ] Epoch [ 078 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.087208 Time 172.879s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 97.3308 L1 FPR95TPR 93.6541
+[ 2022-11-12 13:08:17.603350 ] Epoch [ 079 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.365128 Time 173.017s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 95.0222 L1 FPR95TPR 91.7355
+[ 2022-11-12 13:11:09.819029 ] Epoch [ 080 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.419852 Time 172.216s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 95.8125 L1 FPR95TPR 91.7331
+[ 2022-11-12 13:14:01.664633 ] Epoch [ 081 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.337525 Time 171.846s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.7469 L1 FPR95TPR 83.6433
+[ 2022-11-12 13:16:55.712034 ] Epoch [ 082 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.166822 Time 174.047s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.0572 L1 FPR95TPR 91.0540
+[ 2022-11-12 13:19:49.369816 ] Epoch [ 083 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.267424 Time 173.658s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 95.3090 L1 FPR95TPR 92.8255
+[ 2022-11-12 13:22:43.229557 ] Epoch [ 084 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.183284 Time 173.860s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 93.8991 L1 FPR95TPR 86.2415
+[ 2022-11-12 13:25:37.353690 ] Epoch [ 085 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.264170 Time 174.124s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 96.7462 L1 FPR95TPR 75.1402
+[ 2022-11-12 13:28:30.775920 ] Epoch [ 086 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.289465 Time 173.422s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 95.7954 L1 FPR95TPR 81.3699
+[ 2022-11-12 13:31:23.750930 ] Epoch [ 087 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.164438 Time 172.975s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 96.0900 L1 FPR95TPR 91.7060
+[ 2022-11-12 13:34:17.541884 ] Epoch [ 088 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 9.998546 Time 173.791s
+Adjusting learning rate of group 0 to 5.0000e-05.
+	 L1 AUROC 94.9651 L1 FPR95TPR 96.1027
+[ 2022-11-12 13:37:11.314251 ] Epoch [ 089 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.185091 Time 173.772s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 95.9852 L1 FPR95TPR 83.0233
+[ 2022-11-12 13:40:05.978678 ] Epoch [ 090 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.198425 Time 174.664s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 96.5653 L1 FPR95TPR 93.7113
+[ 2022-11-12 13:42:58.254157 ] Epoch [ 091 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.258415 Time 172.275s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 96.5960 L1 FPR95TPR 84.3815
+[ 2022-11-12 13:45:51.649930 ] Epoch [ 092 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.358107 Time 173.396s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 94.2224 L1 FPR95TPR 92.6188
+[ 2022-11-12 13:48:44.212788 ] Epoch [ 093 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.150599 Time 172.563s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 96.5170 L1 FPR95TPR 94.1854
+[ 2022-11-12 13:51:39.008448 ] Epoch [ 094 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.060111 Time 174.796s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 96.9200 L1 FPR95TPR 87.5111
+[ 2022-11-12 13:54:30.822970 ] Epoch [ 095 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.180120 Time 171.814s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 96.6991 L1 FPR95TPR 91.9398
+[ 2022-11-12 13:57:24.517426 ] Epoch [ 096 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.230456 Time 173.694s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 96.0614 L1 FPR95TPR 91.0540
+[ 2022-11-12 14:00:17.894964 ] Epoch [ 097 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.180599 Time 173.377s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 96.6801 L1 FPR95TPR 88.5444
+[ 2022-11-12 14:03:11.310401 ] Epoch [ 098 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.121203 Time 173.415s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 93.4826 L1 FPR95TPR 94.9233
+[ 2022-11-12 14:06:05.022010 ] Epoch [ 099 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.229153 Time 173.712s
+Adjusting learning rate of group 0 to 5.0000e-06.
+	 L1 AUROC 95.6454 L1 FPR95TPR 91.6740
+[ 2022-11-12 14:08:58.072932 ] Epoch [ 100 / 100 ] Training ID Accuracy: 100.000% Epoch Loss: 10.362694 Time 173.051s
+`Trainer.fit` stopped: `max_epochs=100` reached.
+Total training time: 4:49:15.751013
