@@ -1,0 +1,51 @@
+CutMix Training:
+    File:   lightning_models_dict.py
+    Class:  MixupModel
+
+
+Ships Chipping:
+    File:   /data/ships/nate/ShipRSImageNet/VOC_Format/make_chips.py
+    Run it as a script
+
+
+Hierarchical Metric:
+    File:   evaluator.py
+    Class:  Evaluator
+    Method: holdout_vs_ID_eval
+    It'll automaticall split the dataset according to the levels and compare, including the overall AUROC
+
+
+Training Baselines:
+    python3 lightning_dict.py <split> <# of experiments> <objective function> <dataset> ... other optional arguments
+
+    so to train 5 vanilla models on split 2 of FGVC with no optional arguments specified is
+
+    python3 lightning_dict.py 2 5 'vanilla' 'planes'
+
+
+    Some important optional arguments
+    --detector          By default, the evaluation is done with the MSP detector. If you want to specific a different one use this.
+                        If you're looping through the objectives and want to force energy to use the energy detector, use --force_energy_parity
+    --seed              the integer random seed for pytorch initialization. If you don't give one it will generate one. Either way it's saved in the results output and in the log
+    --mode              whether the script should just train and save ('train'), train and evaluate ('traineval'), or just evaluate a loaded model ('eval')
+    --batch_size -b     Specifically, the number of ID samples in the batch. For OE methods like OE and energy, outlier samples are added to the ID batch, and the number is determined by --OOD_ratio
+    --save_folder       the root folder where the model for each experiment will be saved. By default it creates one in /data/model_backups/models/<dataset>/<split>/<date>-<objective>/
+                        if --mode is set to 'eval' this is where it will load the models from. ATM the evaluation can only be done for all of the experiements, not for example the third one specifically
+    --eval_output       This is the path to the csv file where the results will be dumped
+    --mix_op            The mix operation for mixup, ternary, and quad. 'mixup' == linear. 'cutmix' == cutmix
+
+
+    CLI hyperparameters
+
+    Mix Methods:
+        --mixup_beta 
+        --ternary_gamma 
+        --quad_delta        The corresponding hyperparameters for the three mix methods (ternary needs the first two, quad needs all three)
+
+    Energy:
+        --energy_margin_in
+
+    OE:
+        --OOD_ratio -o      # of OOD samples to add to the batch for each ID sample, default is 3
+
+    

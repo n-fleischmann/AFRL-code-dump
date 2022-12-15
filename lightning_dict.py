@@ -98,9 +98,13 @@ if __name__ == '__main__':
         choices=OBJECTIVE_CONVERTER.keys(),
         help="Training Objective/Loss Function",
     )
+
+    parser.add_argument("dataset", choices=['planes', 'ships'])
+
+
+
     parser.add_argument("--detector", "-d", choices=DETECTOR_CONVERTER.keys(), default="softmax")
 
-    parser.add_argument("--dataset", choices=['planes', 'ships'], default='planes')
 
     parser.add_argument(
         "--seed",  "-s",
@@ -130,6 +134,7 @@ if __name__ == '__main__':
     parser.add_argument("--save_folder", "-f", type=str)
     parser.add_argument("--eval_output", type=str, default='./results.csv')
     parser.add_argument("--weighted", action='store_true')
+    parser.add_argument("--force_energy_parity", action='store_true')
 
     args = parser.parse_args()
 
@@ -142,8 +147,10 @@ if __name__ == '__main__':
     if OBJECTIVE_NAME == 'energy':
         ENERGY_MARGIN_IN = args.energy_margin_in
         OBJECTIVE = OBJECTIVE(ENERGY_MARGIN_IN)
-        DETECTOR_NAME = 'energy'
 
+        if args.force_energy_parity:
+            DETECTOR_NAME = 'energy' 
+            
 
     DETECTOR = DETECTOR_CONVERTER[DETECTOR_NAME]
     DATASET = args.dataset
@@ -210,7 +217,7 @@ if __name__ == '__main__':
         if SEED == -1:
             SEED = random.randrange(4294967295)
         else:
-            SEED += experiment # Make sure each experiment has a different but deterministic seed
+            SEED += experiment - 1 # Make sure each experiment has a different but deterministic seed
 
         checkpoint_callback = pl.callbacks.ModelCheckpoint(
             dirpath=os.path.join(SAVE_ROOT, str(experiment)),

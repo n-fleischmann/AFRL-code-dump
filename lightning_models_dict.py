@@ -279,18 +279,17 @@ class MixupModel(GenericLightningModel):
         ID_correct = (preds.eq(y) * is_known(y)).sum().detach()
         N_ID = is_known(y).sum().detach()
 
-        # MixOE Loss
+        # MixOE Loss - Taken from their REPO
         lam = np.random.beta(self.MIXUP_ALPHA, self.MIXUP_ALPHA)
 
         if self.mixup_mode == "cutmix":
             mixed_x = X.clone().detach()
             bbx1, bby1, bbx2, bby2 = rand_bbox(X.size(), lam)
-            # adjust lambda to exactly match pixel ratio
+
             lam = 1 - (
                 (bbx2 - bbx1) * (bby2 - bby1) / (X.size()[-1] * X.size()[-2])
             )
-            # we empirically find that pasting outlier patch into ID data performs better
-            # than pasting ID patch into outlier data
+
             mixed_x[:, :, bbx1:bbx2, bby1:bby2] = oe_X[:, :, bbx1:bbx2, bby1:bby2]
         elif self.mixup_mode == "mixup":
             mixed_x = lam * X + (1 - lam) * oe_X

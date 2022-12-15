@@ -15,6 +15,9 @@ import pytorch_lightning as pl
 from fgcv_aircraft_code import Dataset_fromTxtFile as txtfiledataset
 
 
+
+### These convert between the name of the split and the number of ID classes
+### Which the models need to create the final linear layer
 planes_classes_converter = {
     "split1": 79,
     "split2": 80,
@@ -34,6 +37,8 @@ dataset_converter = {
     "planes": planes_classes_converter,
     "ships": ships_classes_converter
 }
+
+
 
 def dataset_root(dataset: str, split: str, supplement: Optional[bool]=False) -> os.PathLike:
     """Get the dataset root for the aircraft/ships data for the current split
